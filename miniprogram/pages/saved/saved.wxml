@@ -1,0 +1,44 @@
+<view class="page">
+  <view class="head">
+    <text class="section-kicker">MY SHORTLIST</text>
+    <text class="head-title">我的收藏</text>
+    <text class="head-sub">收藏保存在本机，可在岗位列表点击 ☆ 随时增减。</text>
+  </view>
+
+  <view wx:if="{{count}}" class="bar">
+    <text class="bar-text">已收藏 <text class="strong">{{count}}</text> 个岗位</text>
+    <text class="bar-action" bindtap="onClear">清空</text>
+  </view>
+
+  <view class="list">
+    <view wx:for="{{list}}" wx:key="id" class="job-card" data-id="{{item.id}}" bindtap="onOpenJob">
+      <view class="job-head">
+        <text class="job-title">{{item.title}}</text>
+        <text class="job-salary">{{item.salaryText}}</text>
+      </view>
+      <view class="job-company">{{item.company}}</view>
+      <view class="job-meta">
+        <text>{{item.city}}</text>
+        <text class="meta-dot">·</text>
+        <text>{{item.experience}}</text>
+        <text class="meta-dot">·</text>
+        <text>{{item.education}}</text>
+      </view>
+      <view class="job-tags">
+        <text class="type-badge {{item.typeClass}}">{{item.typeText}}</text>
+        <text wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this" class="tag">{{tag}}</text>
+      </view>
+      <view class="job-foot">
+        <text class="job-source">{{item.source}}</text>
+        <text class="job-time">{{item.timeText}}</text>
+        <view class="fav fav-on" data-id="{{item.id}}" catchtap="onRemove">★</view>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{!count}}" class="empty">
+    <text class="empty-title">还没有收藏岗位</text>
+    <text class="empty-text">在岗位列表点击 ☆ 即可收藏，方便对比和回访。</text>
+    <view class="btn btn-primary empty-btn" bindtap="onBrowse">去浏览岗位</view>
+  </view>
+</view>

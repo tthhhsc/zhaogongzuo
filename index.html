@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d5c50">
+  <meta name="description" content="全国央企、国企、外企与具身智能企业招聘聚合搜索，实时更新、收藏与提醒。">
+  <title>职途雷达 · 央国企 · 外企 · 具身智能招聘</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css?v=33">
+  <script defer src="./app.js?v=33"></script>
+</head>
+<body>
+  <a class="skip-link" href="#jobFeed">跳到岗位列表</a>
+
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="职途雷达首页">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="10"/><circle cx="16" cy="16" r="5"/><path d="m16 16 9-9"/></svg>
+      </span>
+      <span class="brand-copy">
+        <strong>职途雷达</strong>
+        <small>央国企 · 外企 · 具身智能</small>
+      </span>
+    </a>
+
+    <nav class="header-actions" aria-label="快捷操作">
+      <button class="button button-quiet" id="sourceButton" type="button">
+        <span class="button-icon">◎</span><span class="desktop-label">全网数据源</span>
+      </button>
+      <button class="button button-quiet" id="messagesButton" type="button">
+        <span class="button-icon">▤</span><span class="desktop-label">留言板</span>
+        <span class="count-badge" id="messageCount">0</span>
+      </button>
+      <button class="button button-quiet" id="applicationsButton" type="button">
+        <span class="button-icon">▣</span><span class="desktop-label">投递中心</span>
+        <span class="count-badge" id="applicationCount">0</span>
+      </button>
+      <button class="button button-quiet" id="resumeButton" type="button">
+        <span class="button-icon">✎</span><span class="desktop-label">简历制作</span>
+      </button>      <button class="button button-quiet" id="savedButton" type="button" aria-pressed="false">
+        <span class="button-icon">♡</span><span class="desktop-label">我的收藏</span>
+        <span class="count-badge" id="savedCount">0</span>
+      </button>
+      <button class="button button-primary" id="subscribeButton" type="button">
+        <span class="button-icon">⌁</span><span>订阅提醒</span>
+      </button>
+    </nav>
+  </header>
+
+<section class="resume-ribbon" aria-label="简历制作快捷入口">
+  <div class="resume-ribbon-copy"><span>RESUME FIRST</span><strong>先做好简历，再投全国央国企和外企官网</strong></div>
+  <button class="button" id="resumeRibbonButton" type="button">立即制作简历 →</button>
+</section>
+
+<main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> NATIONWIDE TALENT RADAR</div>
+        <h1 id="hero-title">把全国央国企、外企和专科岗位机会<br><em>装进一个搜索框</em></h1>
+        <p>聚合央企、地方国企与外资企业公开岗位，覆盖 31 个省级地区。搜岗位、筛条件、盯更新，少开十几个网页。</p>
+        <div class="hero-note">
+          <span>演示数据</span>
+          岗位内容用于产品展示，申请请以官方平台实时信息为准
+        </div>
+      </div>
+
+      <div class="telemetry-card" aria-label="数据概览">
+        <div class="telemetry-head">
+          <div>
+            <span class="telemetry-kicker">10 分钟扫描雷达</span>
+            <strong id="telemetryStatus">正在连接数据流</strong>
+          </div>
+          <span class="signal-bars" aria-label="信号良好"><i></i><i></i><i></i><i></i></span>
+        </div>
+        <div class="telemetry-grid">
+          <div><strong id="statJobs">0</strong><span>当前索引</span></div>
+          <div><strong id="statToday">0</strong><span>今日更新</span></div>
+          <div><strong id="statCities">31</strong><span>覆盖地区</span></div>
+          <div><strong id="statSources">126</strong><span>官网/入口</span></div>
+        </div>
+        <div class="radar-strip" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-shell" aria-label="岗位搜索">
+      <form class="search-form" id="searchForm" role="search">
+        <label class="search-field keyword-field">
+          <span class="field-icon" aria-hidden="true">⌕</span>
+          <span class="sr-only">搜索岗位、公司或技能</span>
+          <input id="keywordInput" type="search" autocomplete="off" placeholder="搜索岗位、公司或技能，如：专科、运维、具身智能、VLA">
+          <kbd>Enter</kbd>
+        </label>
+        <label class="search-field city-field">
+          <span class="field-icon" aria-hidden="true">⌖</span>
+          <span class="sr-only">选择城市</span>
+          <select id="citySelect">
+            <option value="">全国</option>
+            <option>北京</option><option>上海</option><option>广州</option><option>深圳</option>
+            <option>杭州</option><option>南京</option><option>成都</option><option>重庆</option>
+            <option>武汉</option><option>西安</option><option>苏州</option><option>天津</option>
+            <option>青岛</option><option>长沙</option><option>郑州</option><option>合肥</option>
+            <option>济南</option><option>厦门</option><option>福州</option><option>宁波</option>
+            <option>无锡</option><option>珠海</option><option>佛山</option><option>东莞</option>
+            <option>沈阳</option><option>大连</option><option>哈尔滨</option><option>长春</option>
+            <option>昆明</option><option>贵阳</option><option>海口</option><option>兰州</option>
+            <option>乌鲁木齐</option><option>呼和浩特</option><option>南宁</option><option>南昌</option>
+            <option>石家庄</option><option>太原</option>
+          </select>
+        </label>
+        <button class="button search-submit" type="submit">
+          <span aria-hidden="true">⌕</span> 搜索岗位
+        </button>
+      </form>
+
+      <div class="vocational-search-card">
+        <button id="vocationalQuickButton" type="button" aria-pressed="false">
+          <span class="vocational-search-icon">专</span>
+          <span class="vocational-search-copy"><strong>专科岗位搜索专区</strong><small>大专、高职可投，聚焦运维、技术员、工程、质检和生产岗位</small></span>
+          <span class="vocational-search-action">查看 <b id="vocationalCount">0</b> 个岗位 →</span>
+        </button>
+      </div>
+      <div class="resume-shortcut">
+        <button id="resumeShortcutButton" type="button">
+          <span class="resume-shortcut-icon" aria-hidden="true">✎</span>
+          <span class="resume-shortcut-copy"><strong>简历制作</strong><small>填写信息、实时预览、导出 PDF，并直接用于应用内投递</small></span>
+          <span class="resume-shortcut-action">开始制作 →</span>
+        </button>
+      </div>
+      <div class="quick-searches" aria-label="热门搜索">
+        <span>热门：</span>
+        <button type="button" data-quick="专科">专科岗位</button>
+        <button type="button" data-quick="人工智能">人工智能</button>
+        <button type="button" data-quick="具身智能">具身智能</button>
+        <button type="button" data-quick="应届生">应届生</button>
+        <button type="button" data-quick="新能源">新能源</button>
+        <button type="button" data-quick="供应链">供应链</button>
+        <button type="button" data-quick="财务">财务</button>
+        <button type="button" data-quick="海外业务">海外业务</button>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside class="filter-panel" id="filterPanel" aria-label="筛选条件">
+        <div class="panel-heading">
+          <div>
+            <span class="section-kicker">FILTERS</span>
+            <h2>精细筛选</h2>
+          </div>
+          <div class="panel-heading-actions">
+            <button class="text-button" id="clearFiltersButton" type="button">清空</button>
+            <button class="icon-button mobile-filter-close" id="mobileFilterCloseButton" type="button" aria-label="关闭筛选">×</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label for="categorySelect">职位方向</label>
+          <select id="categorySelect" class="select-control">
+            <option value="">全部方向</option>
+            <option>技术研发</option>
+            <option>产品与运营</option>
+            <option>市场与销售</option>
+            <option>职能管理</option>
+            <option>金融与投资</option>
+            <option>工程与制造</option>
+            <option>供应链与采购</option>
+            <option>咨询与服务</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+        <div class="filter-group">
+          <label for="companyLevelSelect">央企组织层级</label>
+          <select id="companyLevelSelect" class="select-control">
+            <option value="">全部层级</option>
+            <option>集团总部</option>
+            <option>一级子公司</option>
+            <option>二级子公司</option>
+            <option>区域/分子公司</option>
+            <option>地方国企</option>
+          </select>
+        </div>
+          <label for="educationSelect">学历要求</label>
+          <select id="educationSelect" class="select-control">
+            <option value="">不限学历</option>
+            <option value="专科可投">专科可投（大专 / 高职）</option>
+            <option value="大专及以上">大专及以上</option>
+            <option>本科及以上</option>
+            <option>硕士及以上</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="experienceSelect">工作经验</label>
+          <select id="experienceSelect" class="select-control">
+            <option value="">不限经验</option>
+            <option>应届生</option>
+            <option>1-3年</option>
+            <option>3-5年</option>
+            <option>5年以上</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="salarySelect">薪资范围</label>
+          <select id="salarySelect" class="select-control">
+            <option value="">不限薪资</option>
+            <option value="10">10K 以上</option>
+            <option value="15">15K 以上</option>
+            <option value="20">20K 以上</option>
+            <option value="30">30K 以上</option>
+            <option value="50">50K 以上</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="dateSelect">发布时间</label>
+          <select id="dateSelect" class="select-control">
+            <option value="">不限时间</option>
+            <option value="1">最近 24 小时</option>
+            <option value="3">最近 3 天</option>
+            <option value="7">最近 7 天</option>
+            <option value="30">最近 30 天</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="deadlineSelect">报名状态</label>
+          <select id="deadlineSelect" class="select-control">
+            <option value="">全部状态</option>
+            <option value="open">报名中</option>
+            <option value="soon">7 天内截止</option>
+            <option value="closed">已结束</option>
+          </select>
+        </div>
+
+        <fieldset class="filter-group source-filter">
+          <legend>数据来源</legend>
+          <label><input type="checkbox" name="source" value="国聘"> 国聘 <span>央企国企</span></label>
+          <label><input type="checkbox" name="source" value="中央企业招聘平台"> 中央企业招聘平台</label>
+          <label><input type="checkbox" name="source" value="前程无忧"> 前程无忧</label>
+          <label><input type="checkbox" name="source" value="猎聘"> 猎聘 <span>外企</span></label>
+          <label><input type="checkbox" name="source" value="LinkedIn"> LinkedIn</label>
+          <label><input type="checkbox" name="source" value="BOSS直聘"> BOSS直聘 <span>具身智能</span></label>
+        </fieldset>
+
+        <div class="filter-trust">
+          <strong>来源可追溯</strong>
+          <p>每个岗位都展示来源平台，详情页直达官方检索页面。</p>
+        </div>
+      </aside>
+
+      <section class="feed-panel" id="jobFeed" aria-labelledby="feed-title" tabindex="-1">
+        <div class="feed-header">
+          <div class="type-tabs" role="tablist" aria-label="企业类型">
+            <button class="type-tab is-active" type="button" role="tab" aria-selected="true" data-type="all">
+              全部机会 <span id="allCount">0</span>
+            </button>
+            <button class="type-tab" type="button" role="tab" aria-selected="false" data-type="soe">
+              央国企 <span id="soeCount">0</span>
+            </button>
+            <button class="type-tab" type="button" role="tab" aria-selected="false" data-type="foreign">
+              外企 <span id="foreignCount">0</span>
+            </button>
+            <button class="type-tab" type="button" role="tab" aria-selected="false" data-type="embodied">
+              具身智能 <span id="embodiedCount">0</span>
+            </button>
+          </div>
+          <div class="feed-actions">
+            <label class="sort-control">
+              <span>排序</span>
+              <select id="sortSelect">
+                <option value="default">综合推荐</option>
+                <option value="newest">最新发布</option>
+                <option value="salary">薪资最高</option>
+                <option value="deadline">截止时间最近</option>
+              </select>
+            </label>
+            <button class="icon-button mobile-filter-button" id="mobileFilterButton" type="button" aria-label="打开筛选">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="feed-meta">
+          <div>
+            <h2 id="feed-title">全国招聘机会</h2>
+            <p><span id="resultCount">0</span> 个匹配岗位 · <span id="lastUpdated">等待更新</span></p>
+          </div>
+          <label class="auto-refresh">
+            <input id="autoRefreshToggle" type="checkbox" checked>
+            <span class="switch" aria-hidden="true"></span>
+            <span>自动扫描</span>
+          </label>
+        </div>
+
+        <div class="active-filters" id="activeFilters" aria-live="polite"></div>
+
+        <div class="job-list" id="jobList" aria-live="polite"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-radar" aria-hidden="true"><span></span></div>
+          <h3>暂未扫描到匹配岗位</h3>
+          <p>尝试缩短关键词、切换城市，或清空部分筛选条件。</p>
+          <button class="button button-primary" id="resetFromEmpty" type="button">重置筛选</button>
+        </div>
+
+        <button class="load-more" id="loadMoreButton" type="button" hidden>加载更多岗位</button>
+      </section>
+
+      <aside class="insight-panel" aria-label="实时动态与来源">
+        <section class="live-card">
+          <div class="live-card-head">
+            <span class="section-kicker">LIVE FEED</span>
+            <span class="live-pill"><i></i>实时</span>
+          </div>
+          <h2>岗位雷达播报</h2>
+          <p id="liveDescription">每 10 分钟检查一次央国企、外企官网招聘页；能读取到官方结构化岗位时自动上新，读取不到的入口可直接跳转官网查看。</p>
+          <div class="live-timeline" id="liveTimeline" aria-live="polite"></div>
+          <button class="button button-dark" id="manualRefreshButton" type="button">
+            <span class="refresh-icon" aria-hidden="true">↻</span> 立即扫描
+          </button>
+        </section>
+
+        <section class="source-card">
+          <div class="panel-heading compact">
+            <div>
+              <span class="section-kicker">SOURCES</span>
+              <h2>全网直达</h2>
+            </div>
+          </div>
+          <p class="source-intro">聚合平台带入当前条件，官网目录支持公司、行业与地区检索。</p>
+          <div class="source-list" id="quickSourceList"></div>
+          <button class="button button-outline official-direct-button" id="nicheCareersButton" type="button">冷门央国企 / 外企 <span>↗</span></button>
+          <button class="button button-outline official-direct-button" id="officialCareersButton" type="button">央国企 / 外企官网直招 <span>↗</span></button>
+          <button class="button button-outline official-direct-button" id="soeHierarchyButton" type="button">央企各级下属公司图谱 <span>↗</span></button>
+          <button class="text-link" id="allSourcesButton" type="button">查看全部聚合平台 <span>→</span></button>
+        </section>
+
+        <section class="tip-card">
+          <span class="tip-icon" aria-hidden="true">↗</span>
+          <div>
+            <strong>投递小建议</strong>
+            <p>央国企留意报名截止时间与统一笔试；外企简历建议准备中英文双版本。</p>
+          </div>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="job-drawer" id="jobDrawer" aria-hidden="true" aria-labelledby="drawerTitle" role="dialog">
+    <div class="drawer-handle" aria-hidden="true"></div>
+    <div class="drawer-topbar">
+      <span id="drawerTypeBadge" class="type-badge">央国企</span>
+      <button class="icon-button" id="closeDrawerButton" type="button" aria-label="关闭详情">×</button>
+    </div>
+    <div class="drawer-content" id="drawerContent"></div>
+    <div class="drawer-footer">
+      <button class="button button-outline" id="drawerSaveButton" type="button">♡ 收藏岗位</button>
+      <button class="button button-primary" id="drawerApplyButton" type="button">立即在找工作投递</button>
+      <a class="button button-outline" id="drawerExternalButton" href="#" target="_blank" rel="noopener noreferrer">来源平台查询 ↗</a>
+    </div>
+  </aside>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="icon-button modal-close" id="modalCloseButton" type="button" aria-label="关闭">×</button>
+      <div id="modalContent"></div>
+    </section>
+  </div>
+
+  <div class="mobile-sheet-backdrop" id="mobileSheetBackdrop" hidden></div>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <div class="noscript-warning">请启用 JavaScript 后使用岗位搜索与实时更新功能。</div>
+  </noscript>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

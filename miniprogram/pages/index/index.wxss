@@ -1,0 +1,407 @@
+.hero {
+  padding: 36rpx 32rpx 48rpx;
+  background: linear-gradient(150deg, #0d685a 0%, #074c43 68%, #0a3b34 100%);
+  border-radius: 0 0 40rpx 40rpx;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-mark {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 22rpx;
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18rpx;
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-title {
+  color: #ffffff;
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.brand-sub {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 22rpx;
+  line-height: 1.4;
+}
+
+.demo-pill {
+  padding: 4rpx 18rpx;
+  border-radius: 999rpx;
+  font-size: 22rpx;
+  color: #ffe6b6;
+  background: rgba(241, 171, 55, 0.2);
+  border: 1rpx solid rgba(241, 171, 55, 0.45);
+}
+
+.telemetry {
+  display: flex;
+  margin-top: 32rpx;
+  padding-top: 26rpx;
+  border-top: 1rpx solid rgba(255, 255, 255, 0.16);
+}
+
+.telemetry-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.telemetry-num {
+  color: #ffffff;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.telemetry-lbl {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 22rpx;
+}
+
+/* ---------------------------------------------------------------- 搜索区 */
+.search-block {
+  margin: -28rpx 24rpx 0;
+  padding: 26rpx;
+  background: #ffffff;
+  border-radius: 28rpx;
+  box-shadow: 0 16rpx 44rpx rgba(17, 45, 38, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  height: 84rpx;
+  padding: 0 24rpx;
+  background: #f4f7f5;
+  border-radius: 999rpx;
+  border: 1rpx solid #dfe6e2;
+}
+
+.search-icon {
+  color: #0d685a;
+  font-size: 34rpx;
+  margin-right: 12rpx;
+}
+
+.search-input {
+  flex: 1;
+  font-size: 28rpx;
+  color: #18211f;
+}
+
+.search-placeholder {
+  color: #a7b0ac;
+  font-size: 26rpx;
+}
+
+.search-clear {
+  width: 44rpx;
+  height: 44rpx;
+  line-height: 42rpx;
+  text-align: center;
+  color: #7d8985;
+  font-size: 32rpx;
+}
+
+.scope-row {
+  display: flex;
+  margin-top: 22rpx;
+  background: #f4f7f5;
+  border-radius: 999rpx;
+  padding: 6rpx;
+}
+
+.scope {
+  flex: 1;
+  text-align: center;
+  font-size: 26rpx;
+  color: #53615d;
+  padding: 12rpx 0;
+  border-radius: 999rpx;
+}
+
+.scope-on {
+  color: #ffffff;
+  background: #0d685a;
+  font-weight: 600;
+}
+
+.quick-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+
+.quick-label {
+  font-size: 24rpx;
+  color: #7d8985;
+  margin-right: 14rpx;
+}
+
+.quick {
+  font-size: 24rpx;
+  color: #0d685a;
+  background: #dff3ed;
+  border-radius: 999rpx;
+  padding: 4rpx 18rpx;
+  margin: 0 12rpx 12rpx 0;
+}
+
+/* ---------------------------------------------------------------- 工具条 */
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30rpx 32rpx 12rpx;
+}
+
+.toolbar-count {
+  font-size: 26rpx;
+  color: #53615d;
+}
+
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.tool-btn {
+  font-size: 26rpx;
+  color: #18211f;
+  background: #ffffff;
+  border: 1rpx solid #dfe6e2;
+  border-radius: 999rpx;
+  padding: 10rpx 22rpx;
+  margin-left: 14rpx;
+}
+
+.tool-btn-on {
+  color: #0d685a;
+  border-color: rgba(13, 104, 90, 0.4);
+  background: #dff3ed;
+}
+
+.chips {
+  padding: 8rpx 32rpx 4rpx;
+}
+
+/* ---------------------------------------------------------------- 岗位卡 */
+.list {
+  padding: 12rpx 24rpx 0;
+}
+
+.job-card {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 28rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 10rpx 30rpx rgba(17, 45, 38, 0.05);
+}
+
+.job-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.job-title {
+  flex: 1;
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #18211f;
+  line-height: 1.4;
+  margin-right: 16rpx;
+}
+
+.job-salary {
+  color: #c5483c;
+  font-size: 28rpx;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.job-company {
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #53615d;
+}
+
+.job-meta {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #7d8985;
+}
+
+.meta-dot {
+  margin: 0 10rpx;
+  color: #cad5cf;
+}
+
+.job-dates {
+  margin-top: 12rpx;
+  font-size: 22rpx;
+  line-height: 1.6;
+  color: #5f7b73;
+}
+
+.job-tags {
+  margin-top: 18rpx;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.job-tags .type-badge {
+  margin: 0 10rpx 10rpx 0;
+}
+
+.job-foot {
+  display: flex;
+  align-items: center;
+  margin-top: 14rpx;
+  padding-top: 18rpx;
+  border-top: 1rpx solid #f0f4f2;
+  font-size: 24rpx;
+  color: #7d8985;
+}
+
+.job-source {
+  color: #0d685a;
+}
+
+.job-time {
+  margin-left: 16rpx;
+}
+
+.fav {
+  margin-left: auto;
+  width: 60rpx;
+  height: 48rpx;
+  line-height: 44rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #cad5cf;
+}
+
+.fav-on {
+  color: #f1ab37;
+}
+
+.load-more {
+  margin: 20rpx 24rpx 0;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 999rpx;
+  border: 2rpx dashed #cad5cf;
+  color: #0d685a;
+  font-size: 28rpx;
+  background: #ffffff;
+}
+
+.list-end {
+  margin: 24rpx 0;
+  text-align: center;
+  font-size: 24rpx;
+  color: #a7b0ac;
+}
+
+.sheet-close {
+  font-size: 44rpx;
+  color: #7d8985;
+  line-height: 1;
+  padding: 0 10rpx;
+}
+
+.vocational-banner {
+  display: flex;
+  align-items: center;
+  margin: 18rpx 24rpx 0;
+  padding: 18rpx 20rpx;
+  border: 2rpx solid #efd8ae;
+  border-radius: 22rpx;
+  background: linear-gradient(105deg, #fff8e8, #fffdf8);
+}
+
+.vocational-banner-on {
+  border-color: #c48826;
+  box-shadow: 0 0 0 6rpx rgba(241, 171, 55, 0.12);
+}
+
+.vocational-banner-icon {
+  flex: 0 0 auto;
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 20rpx;
+  color: #ffffff;
+  background: linear-gradient(145deg, #dc9830, #a96612);
+  font-size: 28rpx;
+  font-weight: 900;
+  line-height: 72rpx;
+  text-align: center;
+}
+
+.vocational-banner-copy {
+  flex: 1;
+  min-width: 0;
+  margin-left: 18rpx;
+}
+
+.vocational-banner-title,
+.vocational-banner-sub {
+  display: block;
+}
+
+.vocational-banner-title {
+  color: #2b2112;
+  font-size: 28rpx;
+  font-weight: 900;
+}
+
+.vocational-banner-sub {
+  margin-top: 5rpx;
+  color: #8a7454;
+  font-size: 21rpx;
+}
+
+.vocational-banner-action {
+  flex: 0 0 auto;
+  margin-left: 12rpx;
+  color: #97610f;
+  font-size: 23rpx;
+  font-weight: 900;
+}
+
+.vocational-banner-action text {
+  font-size: 30rpx;
+}
+
+.voc-badge {
+  margin: 0 10rpx 10rpx 0;
+  padding: 5rpx 12rpx;
+  border-radius: 10rpx;
+  color: #8b570e;
+  background: #fff0d4;
+  font-size: 20rpx;
+  font-weight: 900;
+}

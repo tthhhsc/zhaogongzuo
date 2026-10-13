@@ -1,0 +1,51 @@
+// 本文件由 tools/build_mp_data.py 依据 data/sources.json 自动生成，请勿手工编辑。
+module.exports = [
+  {
+    "name": "国聘",
+    "type": "央企国企",
+    "home": "https://www.iguopin.com/",
+    "search": "https://www.iguopin.com/search?keyword={keyword}"
+  },
+  {
+    "name": "中央企业招聘平台",
+    "type": "国务院国资委",
+    "home": "https://job.sasac.gov.cn/",
+    "search": "https://job.sasac.gov.cn/"
+  },
+  {
+    "name": "前程无忧",
+    "type": "综合招聘",
+    "home": "https://www.51job.com/",
+    "search": "https://we.51job.com/pc/search?jobArea=000000&keyword={keyword}"
+  },
+  {
+    "name": "猎聘",
+    "type": "中高端岗位",
+    "home": "https://www.liepin.com/",
+    "search": "https://www.liepin.com/zhaopin/?key={keyword}"
+  },
+  {
+    "name": "LinkedIn",
+    "type": "外企与全球岗位",
+    "home": "https://www.linkedin.com/jobs/",
+    "search": "https://www.linkedin.com/jobs/search/?keywords={keyword}&location=China"
+  },
+  {
+    "name": "智联招聘",
+    "type": "综合招聘",
+    "home": "https://www.zhaopin.com/",
+    "search": "https://www.zhaopin.com/sou/jl000000/kw{keyword}/p1"
+  },
+  {
+    "name": "BOSS直聘",
+    "type": "直接沟通",
+    "home": "https://www.zhipin.com/",
+    "search": "https://www.zhipin.com/web/geek/jobs?query={keyword}&city=100010000"
+  },
+  {
+    "name": "Indeed",
+    "type": "全球岗位",
+    "home": "https://cn.indeed.com/",
+    "search": "https://cn.indeed.com/jobs?q={keyword}&l={city}"
+  }
+];

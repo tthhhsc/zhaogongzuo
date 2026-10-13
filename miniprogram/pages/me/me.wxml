@@ -1,0 +1,74 @@
+<view class="page">
+  <view class="head">
+    <view class="brand">
+      <view class="brand-mark">◎</view>
+      <view class="brand-copy">
+        <text class="brand-title">职途雷达</text>
+        <text class="brand-sub">版本 {{version}} · 本地演示数据</text>
+      </view>
+    </view>
+    <view class="head-stats">
+      <view class="head-stat"><text class="head-num">{{stats.total}}</text><text class="head-lbl">在库岗位</text></view>
+      <view class="head-stat"><text class="head-num">{{favoriteCount}}</text><text class="head-lbl">已收藏</text></view>
+      <view class="head-stat"><text class="head-num">{{stats.cities}}</text><text class="head-lbl">覆盖城市</text></view>
+    </view>
+  </view>
+
+  <view class="card user-card">
+    <view wx:if="{{loginState.loggedIn}}" class="user-row">
+      <image class="user-avatar" src="{{loginState.profile.avatarUrl}}" mode="aspectFill"></image>
+      <view class="user-copy">
+        <text class="user-name">{{loginState.profile.nickName}}</text>
+        <text class="user-status">已登录 · 状态仅保存在本机</text>
+      </view>
+    </view>
+    <view wx:else class="user-row">
+      <view class="user-avatar user-avatar-empty">+</view>
+      <view class="user-copy">
+        <text class="user-name">未登录</text>
+        <text class="user-status">登录后可保存头像和昵称</text>
+      </view>
+      <view class="user-action" bindtap="onLogin">去登录</view>
+    </view>
+  </view>
+  <view class="card">
+    <text class="section-title">数据概览</text>
+    <view class="line-row"><text class="line-label">央国企岗位</text><text class="line-value">{{stats.soe}}</text></view>
+    <view class="line-row"><text class="line-label">外企岗位</text><text class="line-value">{{stats.foreign}}</text></view>
+    <view class="line-row"><text class="line-label">近 24 小时更新</text><text class="line-value">{{stats.today}}</text></view>
+    <view class="line-row"><text class="line-label">官网招聘入口</text><text class="line-value">{{officialCount}}</text></view>
+    <view class="line-row"><text class="line-label">聚合招聘平台</text><text class="line-value">{{platformCount}}</text></view>
+  </view>
+
+  <view class="card">
+    <text class="section-title">本地数据</text>
+    <view class="line-row"><text class="line-label">搜索历史</text><text class="line-value">{{historyCount}} 条</text></view>
+    <view class="menu" bindtap="onClearHistory">
+      <text>清空搜索历史</text>
+      <text class="field-arrow">›</text>
+    </view>
+    <view class="menu" bindtap="onClearFavorites">
+      <text>清空收藏岗位</text>
+      <text class="field-arrow">›</text>
+    </view>
+    <view wx:if="{{loginState.loggedIn}}" class="menu" bindtap="onLogout">
+      <text>退出登录</text>
+      <text class="field-arrow">›</text>
+    </view>  </view>
+
+  <view class="card">
+    <text class="section-title">数据说明</text>
+    <text class="paragraph">当前版本的 42 个岗位（含 12 个专科岗位）为产品演示样例，用于验证搜索、筛选、收藏与详情体验，不代表企业当前真实招聘状态。官网入口与聚合平台链接来自公开渠道，申请请以企业官方公告为准。</text>
+    <text class="paragraph">收藏、搜索历史与筛选条件仅保存在你的设备本地，本版本不使用账号体系，不上传服务器。</text>
+  </view>
+
+  <view class="card">
+    <text class="section-title">免责声明</text>
+    <text class="paragraph">本小程序不提供代投递、代报名服务，不收集或上传简历等个人敏感信息。岗位信息汇总仅供参考，如与官方发布不一致，请以企业官方平台为准。</text>
+  </view>
+
+  <button class="btn btn-primary btn-block share-btn" open-type="share">分享给朋友</button>
+</view>
+
+
+

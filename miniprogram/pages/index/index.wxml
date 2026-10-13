@@ -1,0 +1,210 @@
+<view class="page">
+  <view class="hero">
+    <view class="between">
+      <view class="brand">
+        <view class="brand-mark">◎</view>
+        <view class="brand-copy">
+          <text class="brand-title">职途雷达</text>
+          <text class="brand-sub">央国企 · 外企 · 具身智能</text>
+        </view>
+      </view>
+      <view class="demo-pill">演示数据</view>
+    </view>
+    <view class="telemetry">
+      <view class="telemetry-item">
+        <text class="telemetry-num">{{stats.total}}</text>
+        <text class="telemetry-lbl">在库岗位</text>
+      </view>
+      <view class="telemetry-item">
+        <text class="telemetry-num">{{stats.soe}}</text>
+        <text class="telemetry-lbl">央国企</text>
+      </view>
+      <view class="telemetry-item">
+        <text class="telemetry-num">{{stats.foreign}}</text>
+        <text class="telemetry-lbl">外企</text>
+      </view>
+      <view class="telemetry-item">
+        <text class="telemetry-num">{{stats.embodied}}</text>
+        <text class="telemetry-lbl">具身智能</text>
+      </view>
+      <view class="telemetry-item">
+        <text class="telemetry-num">{{stats.cities}}</text>
+        <text class="telemetry-lbl">覆盖城市</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="search-block">
+    <view class="search-bar">
+      <text class="search-icon">⌕</text>
+      <input
+        class="search-input"
+        value="{{draftKeyword}}"
+        placeholder="搜索岗位、公司或技能，如：专科、运维"
+        placeholder-class="search-placeholder"
+        confirm-type="search"
+        bindinput="onKeywordInput"
+        bindconfirm="onSearchConfirm"
+      />
+      <view wx:if="{{draftKeyword}}" class="search-clear" bindtap="onKeywordClear">×</view>
+    </view>
+
+    <view class="scope-row">
+      <view
+        wx:for="{{scopes}}"
+        wx:key="value"
+        class="scope {{item.value === filters.scope ? 'scope-on' : ''}}"
+        data-value="{{item.value}}"
+        bindtap="onScopeTap"
+      >{{item.label}}</view>
+    </view>
+
+    <view class="quick-row">
+      <text class="quick-label">热门</text>
+      <view
+        wx:for="{{quickSearches}}"
+        wx:key="*this"
+        class="quick"
+        data-word="{{item}}"
+        bindtap="onQuickTap"
+      >{{item}}</view>
+    </view>
+  </view>
+
+  <view class="vocational-banner {{filters.vocationalOnly ? 'vocational-banner-on' : ''}}" bindtap="onVocationalTap">
+    <view class="vocational-banner-icon">专</view>
+    <view class="vocational-banner-copy">
+      <text class="vocational-banner-title">专科岗位搜索专区</text>
+      <text class="vocational-banner-sub">大专、高职可投 · 运维 / 技术员 / 工程 / 质检</text>
+    </view>
+    <view class="vocational-banner-action"><text>{{stats.vocational}}</text> 个岗位 ›</view>
+  </view>
+  <view class="toolbar">
+    <view class="toolbar-count"><text class="strong">{{total}}</text> 个岗位</view>
+    <view class="toolbar-actions">
+      <picker mode="selector" range="{{sortLabels}}" value="{{sortIndex}}" bindchange="onSortChange">
+        <view class="tool-btn">{{sortLabel}} ▾</view>
+      </picker>
+      <view class="tool-btn {{activeCount ? 'tool-btn-on' : ''}}" bindtap="onOpenFilters">
+        筛选<text wx:if="{{activeCount}}"> · {{activeCount}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{chips.length}}" class="chips">
+    <view
+      wx:for="{{chips}}"
+      wx:key="key"
+      class="chip"
+      data-key="{{item.key}}"
+      bindtap="onRemoveChip"
+    >{{item.label}} ×</view>
+    <view class="chip chip-plain" bindtap="onResetFilters">重置</view>
+  </view>
+
+  <view class="list">
+    <view wx:for="{{list}}" wx:key="id" class="job-card" data-id="{{item.id}}" bindtap="onOpenJob">
+      <view class="job-head">
+        <text class="job-title">{{item.title}}</text>
+        <text class="job-salary">{{item.salaryText}}</text>
+      </view>
+      <view class="job-company">{{item.company}}</view>
+      <view class="job-meta">
+        <text>{{item.city}}</text>
+        <text class="meta-dot">·</text>
+        <text>{{item.experience}}</text>
+        <text class="meta-dot">·</text>
+        <text>{{item.education}}</text>
+        <text wx:if="{{item.level}}" class="meta-dot">·</text>
+        <text wx:if="{{item.level}}">{{item.level}}</text>
+      </view>
+      <view class="job-dates">{{item.dateText}}</view>
+      <view class="job-tags">
+        <text class="type-badge {{item.typeClass}}">{{item.typeText}}</text>
+        <text wx:if="{{item.vocationalFriendly}}" class="voc-badge">专科可投</text>
+        <text wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this" class="tag">{{tag}}</text>
+      </view>
+      <view class="job-foot">
+        <text class="job-source">{{item.source}}</text>
+        <text class="job-time">{{item.timeText}}</text>
+        <view class="fav {{item.favorite ? 'fav-on' : ''}}" data-id="{{item.id}}" catchtap="onToggleFavorite">
+          {{item.favorite ? '★' : '☆'}}
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{!list.length}}" class="empty">
+    <text class="empty-title">暂未扫描到匹配岗位</text>
+    <text class="empty-text">尝试缩短关键词、切换城市，或清空部分筛选条件。</text>
+    <view class="btn btn-ghost" style="display:inline-flex;" bindtap="onResetFilters">重置筛选</view>
+  </view>
+
+  <view wx:if="{{hasMore}}" class="load-more" bindtap="onLoadMore">加载更多岗位</view>
+  <view wx:elif="{{list.length}}" class="list-end">已展示全部 {{total}} 个岗位</view>
+
+  <view wx:if="{{filterOpen}}" class="mask" bindtap="onCloseFilters"></view>
+  <view wx:if="{{filterOpen}}" class="sheet">
+    <view class="sheet-head">
+      <text class="section-title">精细筛选</text>
+      <text class="sheet-close" bindtap="onCloseFilters">×</text>
+    </view>
+    <view class="sheet-body">
+      <picker mode="selector" range="{{facets.cities}}" value="{{picker.cityIndex}}" bindchange="onCityChange">
+        <view class="field">
+          <text class="field-label">城市</text>
+          <view class="field-value"><text>{{picker.cityLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{facets.categories}}" value="{{picker.categoryIndex}}" bindchange="onCategoryChange">
+        <view class="field">
+          <text class="field-label">职位方向</text>
+          <view class="field-value"><text>{{picker.categoryLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{facets.levels}}" value="{{picker.levelIndex}}" bindchange="onLevelChange">
+        <view class="field">
+          <text class="field-label">央企组织层级</text>
+          <view class="field-value"><text>{{picker.levelLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{facets.educations}}" value="{{picker.educationIndex}}" bindchange="onEducationChange">
+        <view class="field">
+          <text class="field-label">学历要求</text>
+          <view class="field-value"><text>{{picker.educationLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{facets.experiences}}" value="{{picker.experienceIndex}}" bindchange="onExperienceChange">
+        <view class="field">
+          <text class="field-label">工作经验</text>
+          <view class="field-value"><text>{{picker.experienceLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{salaryLabels}}" value="{{picker.salaryIndex}}" bindchange="onSalaryChange">
+        <view class="field">
+          <text class="field-label">薪资范围</text>
+          <view class="field-value"><text>{{picker.salaryLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{dayLabels}}" value="{{picker.dayIndex}}" bindchange="onDaysChange">
+        <view class="field">
+          <text class="field-label">发布时间</text>
+          <view class="field-value"><text>{{picker.dayLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+      <picker mode="selector" range="{{facets.sources}}" value="{{picker.sourceIndex}}" bindchange="onSourceChange">
+        <view class="field">
+          <text class="field-label">数据来源</text>
+          <view class="field-value"><text>{{picker.sourceLabel}}</text><text class="field-arrow">›</text></view>
+        </view>
+      </picker>
+    </view>
+    <view class="sheet-foot">
+      <view class="btn btn-ghost" bindtap="onResetFilters">重置条件</view>
+      <view class="btn btn-primary" bindtap="onCloseFilters">查看 {{total}} 个岗位</view>
+    </view>
+  </view>
+</view>
+
+
+

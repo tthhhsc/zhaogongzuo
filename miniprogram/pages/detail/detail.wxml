@@ -1,0 +1,105 @@
+<view class="page" wx:if="{{job}}">
+  <view class="detail-hero">
+    <text class="type-badge {{job.typeClass}}">{{job.typeText}}</text>
+    <text wx:if="{{job.vocationalFriendly}}" class="detail-voc-badge">专科可投</text>
+    <text class="detail-title">{{job.title}}</text>
+    <text class="detail-salary">{{job.salaryText}}</text>
+    <text class="detail-company">{{job.company}}</text>
+  </view>
+
+  <view class="card">
+    <view class="info-grid">
+      <view class="info-item">
+        <text class="info-label">城市</text>
+        <text class="info-value">{{job.city}}</text>
+      </view>
+      <view class="info-item">
+        <text class="info-label">经验</text>
+        <text class="info-value">{{job.experience}}</text>
+      </view>
+      <view class="info-item">
+        <text class="info-label">学历</text>
+        <text class="info-value">{{job.education}}</text>
+      </view>
+      <view class="info-item">
+        <text class="info-label">职位方向</text>
+        <text class="info-value">{{job.category}}</text>
+      </view>
+      <view class="info-item" wx:if="{{job.level}}">
+        <text class="info-label">组织层级</text>
+        <text class="info-value">{{job.level}}</text>
+      </view>
+      <view class="info-item" wx:if="{{job.industry}}">
+        <text class="info-label">行业</text>
+        <text class="info-value">{{job.industry}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card" wx:if="{{job.tags.length}}">
+    <text class="block-title">岗位标签</text>
+    <view class="tag-wrap">
+      <text wx:for="{{job.tags}}" wx:key="*this" class="tag">{{item}}</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <text class="block-title">岗位描述</text>
+    <text class="block-text">{{job.description}}</text>
+  </view>
+
+  <view class="card" wx:if="{{job.requirements.length}}">
+    <text class="block-title">任职要求</text>
+    <view wx:for="{{job.requirements}}" wx:key="*this" class="bullet">
+      <text class="bullet-dot">·</text>
+      <text class="bullet-text">{{item}}</text>
+    </view>
+  </view>
+
+  <view class="card" wx:if="{{job.benefits.length}}">
+    <text class="block-title">福利待遇</text>
+    <view class="tag-wrap">
+      <text wx:for="{{job.benefits}}" wx:key="*this" class="tag">{{item}}</text>
+    </view>
+  </view>
+
+  <view class="card" wx:if="{{job.ownershipPath.length}}">
+    <text class="block-title">组织层级路径</text>
+    <view wx:for="{{job.ownershipPath}}" wx:key="*this" class="path-item">
+      <text class="path-index">{{index + 1}}</text>
+      <text class="path-text">{{item}}</text>
+    </view>
+    <text wx:if="{{job.organizationNote}}" class="note">{{job.organizationNote}}</text>
+  </view>
+
+  <view class="card">
+    <text class="block-title">来源与时间</text>
+    <view class="line-row"><text class="info-label">来源平台</text><text class="info-value">{{job.source}}</text></view>
+    <view class="line-row"><text class="info-label">发布时间</text><text class="info-value">{{job.postedText}}</text></view>
+    <view class="line-row"><text class="info-label">报名开始</text><text class="info-value">{{job.startText}}</text></view>
+    <view class="line-row"><text class="info-label">报名截止</text><text class="info-value">{{job.endText}}</text></view>
+    <view class="line-row"><text class="info-label">更新时间</text><text class="info-value">{{job.timeText}}</text></view>
+    <view class="line-row"><text class="info-label">直达入口</text><text class="info-value">{{linkLabel}}</text></view>
+  </view>
+
+  <view class="disclaimer">
+    本岗位为产品演示数据，申请请以企业官方平台实时公告为准。小程序不代为投递、不收集简历与个人信息。
+  </view>
+
+  <view class="foot-space"></view>
+
+  <view class="action-bar">
+    <view class="action-fav {{favorite ? 'action-fav-on' : ''}}" bindtap="onToggleFavorite">
+      {{favorite ? '★ 已收藏' : '☆ 收藏'}}
+    </view>
+    <view class="action-half btn btn-ghost" bindtap="onCopyJob">复制岗位</view>
+    <view class="action-half btn btn-primary" bindtap="onCopySource">官网投递</view>
+  </view>
+</view>
+
+<view class="empty" wx:else>
+  <text class="empty-title">岗位不存在</text>
+  <text class="empty-text">该岗位可能已下线，请返回列表重新选择。</text>
+</view>
+
+

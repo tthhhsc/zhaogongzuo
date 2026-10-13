@@ -1,0 +1,49 @@
+{
+    "appid": "wxYOUR_APPID",
+    "projectname": "职途雷达",
+    "description": "央国企与外企全国招聘聚合小程序",
+    "miniprogramRoot": "./",
+    "compileType": "miniprogram",
+    "libVersion": "3.5.5",
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "minified": true,
+        "coverView": true,
+        "ignoreUploadUnusedFiles": true,
+        "compileWorklet": false,
+        "uglifyFileName": false,
+        "uploadWithSourceMap": true,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "minifyWXML": true,
+        "localPlugins": false,
+        "disableUseStrict": false,
+        "useCompilerPlugins": false,
+        "condition": false,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "packOptions": {
+        "ignore": [
+            {
+                "value": "README.md",
+                "type": "file"
+            },
+            {
+                "value": ".md",
+                "type": "suffix"
+            }
+        ],
+        "include": []
+    },
+    "condition": {},
+    "simulatorPluginLibVersion": {},
+    "editorSetting": {}
+}

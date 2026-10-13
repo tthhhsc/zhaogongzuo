@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/sources/sources",
+    "pages/saved/saved",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f4f7f5",
+    "navigationBarBackgroundColor": "#0d685a",
+    "navigationBarTitleText": "职途雷达",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7d8985",
+    "selectedColor": "#0d685a",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "岗位",
+        "iconPath": "assets/tab-jobs.png",
+        "selectedIconPath": "assets/tab-jobs-active.png"
+      },
+      {
+        "pagePath": "pages/sources/sources",
+        "text": "官网直达",
+        "iconPath": "assets/tab-source.png",
+        "selectedIconPath": "assets/tab-source-active.png"
+      },
+      {
+        "pagePath": "pages/saved/saved",
+        "text": "收藏",
+        "iconPath": "assets/tab-saved.png",
+        "selectedIconPath": "assets/tab-saved-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "assets/tab-me.png",
+        "selectedIconPath": "assets/tab-me-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
+
+

@@ -1,0 +1,3190 @@
+// 本文件由 tools/build_mp_data.py 依据 data/jobs.json 自动生成，请勿手工编辑。
+module.exports = [
+  {
+    "id": "soe-0001",
+    "type": "soe",
+    "title": "人工智能算法工程师",
+    "company": "中移系统集成有限公司",
+    "short": "中移",
+    "industry": "通信/信息技术",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 24,
+    "salaryMax": 40,
+    "salaryText": "24-40K·16薪",
+    "source": "国聘",
+    "tags": [
+      "人工智能",
+      "国企",
+      "六险二金"
+    ],
+    "updatedMinutes": 6,
+    "postedDays": 1,
+    "color": "#315b8a",
+    "description": "负责人工智能算法工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国移动通信集团",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国移动通信集团",
+      "中移系统集成有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-25",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0002",
+    "type": "soe",
+    "title": "电力系统研发工程师",
+    "company": "国网江苏省电力有限公司",
+    "short": "国网",
+    "industry": "能源/电力",
+    "city": "南京",
+    "province": "江苏",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "应届生",
+    "salaryMin": 18,
+    "salaryMax": 28,
+    "salaryText": "18-28K·15薪",
+    "source": "国聘",
+    "tags": [
+      "新能源",
+      "校招",
+      "技术壁垒"
+    ],
+    "updatedMinutes": 18,
+    "postedDays": 2,
+    "color": "#9b4f3f",
+    "description": "负责电力系统研发工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备应届生相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "国家电网有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "国家电网有限公司",
+      "国网江苏省电力有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-18",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0003",
+    "type": "soe",
+    "title": "飞行器结构设计工程师",
+    "company": "上海飞机制造有限公司",
+    "short": "商飞",
+    "industry": "航空制造",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 25,
+    "salaryMax": 42,
+    "salaryText": "25-42K·16薪",
+    "source": "中央企业招聘平台",
+    "tags": [
+      "航空",
+      "结构设计",
+      "重点央企"
+    ],
+    "updatedMinutes": 32,
+    "postedDays": 2,
+    "color": "#526b47",
+    "description": "负责飞行器结构设计工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国商用飞机有限责任公司",
+    "companyLevel": "所属单位",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国商用飞机有限责任公司",
+      "上海飞机制造有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-13",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0004",
+    "type": "soe",
+    "title": "海洋工程技术岗",
+    "company": "中海石油（中国）有限公司天津分公司",
+    "short": "中海油",
+    "industry": "能源/化工",
+    "city": "天津",
+    "province": "天津",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 20,
+    "salaryMax": 35,
+    "salaryText": "20-35K·15薪",
+    "source": "国聘",
+    "tags": [
+      "海洋工程",
+      "能源安全",
+      "驻场补贴"
+    ],
+    "updatedMinutes": 48,
+    "postedDays": 3,
+    "color": "#775d8d",
+    "description": "负责海洋工程技术岗相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国海洋石油集团有限公司",
+    "companyLevel": "区域分公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国海洋石油集团有限公司",
+      "中海石油（中国）有限公司",
+      "天津分公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-23",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0005",
+    "type": "soe",
+    "title": "智能制造工程师",
+    "company": "中车青岛四方机车车辆股份有限公司",
+    "short": "中车",
+    "industry": "轨道交通",
+    "city": "青岛",
+    "province": "山东",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 15,
+    "salaryMax": 25,
+    "salaryText": "15-25K·14薪",
+    "source": "国聘",
+    "tags": [
+      "智能制造",
+      "轨道交通",
+      "国企"
+    ],
+    "updatedMinutes": 65,
+    "postedDays": 3,
+    "color": "#b06a23",
+    "description": "负责智能制造工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备1-3年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国中车集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国中车集团有限公司",
+      "中车青岛四方机车车辆股份有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-02",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0006",
+    "type": "soe",
+    "title": "核安全工程师",
+    "company": "中国核动力研究设计院",
+    "short": "中核",
+    "industry": "核工业",
+    "city": "成都",
+    "province": "四川",
+    "category": "工程与制造",
+    "education": "硕士及以上",
+    "experience": "应届生",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·15薪",
+    "source": "中央企业招聘平台",
+    "tags": [
+      "核工业",
+      "校招",
+      "安全工程"
+    ],
+    "updatedMinutes": 82,
+    "postedDays": 4,
+    "color": "#375e68",
+    "description": "负责核安全工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备应届生相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国核工业集团有限公司",
+    "companyLevel": "直属科研单位",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国核工业集团有限公司",
+      "中国核动力研究设计院"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-02",
+    "endDate": "2026-11-16",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0007",
+    "type": "soe",
+    "title": "海外项目管理岗",
+    "company": "中国电建集团国际工程有限公司",
+    "short": "电建",
+    "industry": "工程建设",
+    "city": "武汉",
+    "province": "湖北",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 22,
+    "salaryMax": 36,
+    "salaryText": "22-36K·16薪",
+    "source": "国聘",
+    "tags": [
+      "一带一路",
+      "海外派驻",
+      "项目管理"
+    ],
+    "updatedMinutes": 105,
+    "postedDays": 4,
+    "color": "#7d4f61",
+    "description": "负责海外项目管理岗相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国电力建设集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国电力建设集团有限公司",
+      "中国电建集团国际工程有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-22",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0008",
+    "type": "soe",
+    "title": "数字金融产品经理",
+    "company": "中邮信息科技（北京）有限公司",
+    "short": "中邮",
+    "industry": "金融/物流",
+    "city": "北京",
+    "province": "北京",
+    "category": "产品与运营",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·15薪",
+    "source": "国聘",
+    "tags": [
+      "金融科技",
+      "产品规划",
+      "央企"
+    ],
+    "updatedMinutes": 130,
+    "postedDays": 5,
+    "color": "#14615b",
+    "description": "负责数字金融产品经理相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国邮政集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国邮政集团有限公司",
+      "中邮信息科技（北京）有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0009",
+    "type": "soe",
+    "title": "供应链管培生",
+    "company": "中粮贸易有限公司",
+    "short": "中粮",
+    "industry": "食品/农业",
+    "city": "上海",
+    "province": "上海",
+    "category": "供应链与采购",
+    "education": "本科及以上",
+    "experience": "应届生",
+    "salaryMin": 12,
+    "salaryMax": 20,
+    "salaryText": "12-20K·14薪",
+    "source": "国聘",
+    "tags": [
+      "管培生",
+      "供应链",
+      "轮岗培养"
+    ],
+    "updatedMinutes": 155,
+    "postedDays": 5,
+    "color": "#315b8a",
+    "description": "负责供应链管培生相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备应届生相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中粮集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中粮集团有限公司",
+      "中粮贸易有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-15",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0010",
+    "type": "soe",
+    "title": "工程造价师",
+    "company": "中建三局集团有限公司",
+    "short": "中建",
+    "industry": "建筑/地产",
+    "city": "广州",
+    "province": "广东",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 15,
+    "salaryMax": 24,
+    "salaryText": "15-24K·14薪",
+    "source": "前程无忧",
+    "tags": [
+      "工程造价",
+      "大型项目",
+      "五险二金"
+    ],
+    "updatedMinutes": 190,
+    "postedDays": 6,
+    "color": "#9b4f3f",
+    "description": "负责工程造价师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国建筑集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国建筑集团有限公司",
+      "中建三局集团有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-20",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0011",
+    "type": "soe",
+    "title": "投资分析岗",
+    "company": "华润深国投投资有限公司",
+    "short": "华润",
+    "industry": "多元化集团",
+    "city": "深圳",
+    "province": "广东",
+    "category": "金融与投资",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 20,
+    "salaryMax": 35,
+    "salaryText": "20-35K·15薪",
+    "source": "猎聘",
+    "tags": [
+      "投资分析",
+      "财务建模",
+      "央企"
+    ],
+    "updatedMinutes": 220,
+    "postedDays": 6,
+    "color": "#526b47",
+    "description": "负责投资分析岗相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备1-3年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "华润（集团）有限公司",
+    "companyLevel": "二级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "华润（集团）有限公司",
+      "华润金控",
+      "华润深国投投资有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-30",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0012",
+    "type": "soe",
+    "title": "新能源开发工程师",
+    "company": "国能龙源环保有限公司",
+    "short": "国家能源",
+    "industry": "能源/电力",
+    "city": "西安",
+    "province": "陕西",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·15薪",
+    "source": "国聘",
+    "tags": [
+      "新能源",
+      "储能",
+      "项目开发"
+    ],
+    "updatedMinutes": 260,
+    "postedDays": 7,
+    "color": "#775d8d",
+    "description": "负责新能源开发工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "国家能源投资集团有限责任公司",
+    "companyLevel": "二级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "国家能源投资集团有限责任公司",
+      "国家能源集团科技环保有限公司",
+      "国能龙源环保有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-09-29",
+    "endDate": "2026-11-08",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0013",
+    "type": "soe",
+    "title": "嵌入式软件工程师",
+    "company": "中国北方工业有限公司",
+    "short": "兵器工业",
+    "industry": "国防工业",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 22,
+    "salaryMax": 36,
+    "salaryText": "22-36K·15薪",
+    "source": "中央企业招聘平台",
+    "tags": [
+      "嵌入式",
+      "C++",
+      "重点央企"
+    ],
+    "updatedMinutes": 310,
+    "postedDays": 8,
+    "color": "#b06a23",
+    "description": "负责嵌入式软件工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国兵器工业集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国兵器工业集团有限公司",
+      "中国北方工业有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-09-28",
+    "endDate": "2026-10-18",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0014",
+    "type": "soe",
+    "title": "财务管培生",
+    "company": "招商局蛇口工业区控股股份有限公司",
+    "short": "招商局",
+    "industry": "综合产业",
+    "city": "深圳",
+    "province": "广东",
+    "category": "职能管理",
+    "education": "本科及以上",
+    "experience": "应届生",
+    "salaryMin": 14,
+    "salaryMax": 22,
+    "salaryText": "14-22K·14薪",
+    "source": "国聘",
+    "tags": [
+      "财务管培",
+      "轮岗",
+      "央企"
+    ],
+    "updatedMinutes": 360,
+    "postedDays": 9,
+    "color": "#375e68",
+    "description": "负责财务管培生相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备应届生相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "招商局集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "招商局集团有限公司",
+      "招商局蛇口工业区控股股份有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-09-27",
+    "endDate": "2026-11-11",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "soe-0015",
+    "type": "soe",
+    "title": "储能系统工程师",
+    "company": "东方电气集团东方电机有限公司",
+    "short": "东方电气",
+    "industry": "电力装备",
+    "city": "成都",
+    "province": "四川",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·15薪",
+    "source": "前程无忧",
+    "tags": [
+      "储能",
+      "电力电子",
+      "装备制造"
+    ],
+    "updatedMinutes": 430,
+    "postedDays": 10,
+    "color": "#7d4f61",
+    "description": "负责储能系统工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备1-3年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "groupCompany": "中国东方电气集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国东方电气集团有限公司",
+      "东方电气集团东方电机有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-09-26",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0016",
+    "type": "foreign",
+    "title": "工业AI产品经理",
+    "company": "西门子",
+    "short": "SIE",
+    "industry": "工业自动化",
+    "city": "北京",
+    "province": "北京",
+    "category": "产品与运营",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 28,
+    "salaryMax": 45,
+    "salaryText": "28-45K·15薪",
+    "source": "LinkedIn",
+    "tags": [
+      "工业AI",
+      "英文办公",
+      "敏捷"
+    ],
+    "updatedMinutes": 12,
+    "postedDays": 1,
+    "color": "#14615b",
+    "description": "负责工业AI产品经理相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-25",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0017",
+    "type": "foreign",
+    "title": "电气自动化工程师",
+    "company": "施耐德电气",
+    "short": "SE",
+    "industry": "电气设备",
+    "city": "苏州",
+    "province": "江苏",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·14薪",
+    "source": "猎聘",
+    "tags": [
+      "PLC",
+      "工业物联网",
+      "外企"
+    ],
+    "updatedMinutes": 27,
+    "postedDays": 2,
+    "color": "#315b8a",
+    "description": "负责电气自动化工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-03",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0018",
+    "type": "foreign",
+    "title": "自动驾驶算法工程师",
+    "company": "博世",
+    "short": "BOSCH",
+    "industry": "汽车科技",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 35,
+    "salaryMax": 55,
+    "salaryText": "35-55K·15薪",
+    "source": "LinkedIn",
+    "tags": [
+      "自动驾驶",
+      "感知算法",
+      "C++"
+    ],
+    "updatedMinutes": 41,
+    "postedDays": 2,
+    "color": "#9b4f3f",
+    "description": "负责自动驾驶算法工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-13",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0019",
+    "type": "foreign",
+    "title": "供应链管培生",
+    "company": "雀巢",
+    "short": "Nestlé",
+    "industry": "消费品",
+    "city": "北京",
+    "province": "北京",
+    "category": "供应链与采购",
+    "education": "本科及以上",
+    "experience": "应届生",
+    "salaryMin": 13,
+    "salaryMax": 19,
+    "salaryText": "13-19K·13薪",
+    "source": "LinkedIn",
+    "tags": [
+      "管培生",
+      "英文简历",
+      "快消"
+    ],
+    "updatedMinutes": 58,
+    "postedDays": 3,
+    "color": "#526b47",
+    "description": "负责供应链管培生相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备应届生相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-17",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0020",
+    "type": "foreign",
+    "title": "品牌市场经理",
+    "company": "联合利华",
+    "short": "U",
+    "industry": "消费品",
+    "city": "上海",
+    "province": "上海",
+    "category": "市场与销售",
+    "education": "本科及以上",
+    "experience": "5年以上",
+    "salaryMin": 28,
+    "salaryMax": 42,
+    "salaryText": "28-42K·14薪",
+    "source": "猎聘",
+    "tags": [
+      "品牌策略",
+      "快消",
+      "数据营销"
+    ],
+    "updatedMinutes": 74,
+    "postedDays": 3,
+    "color": "#775d8d",
+    "description": "负责品牌市场经理相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备5年以上相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-02",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0021",
+    "type": "foreign",
+    "title": "医学联络官",
+    "company": "辉瑞",
+    "short": "PFE",
+    "industry": "医药健康",
+    "city": "广州",
+    "province": "广东",
+    "category": "咨询与服务",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 22,
+    "salaryMax": 35,
+    "salaryText": "22-35K·14薪",
+    "source": "LinkedIn",
+    "tags": [
+      "医学事务",
+      "医药",
+      "英文办公"
+    ],
+    "updatedMinutes": 91,
+    "postedDays": 4,
+    "color": "#b06a23",
+    "description": "负责医学联络官相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备1-3年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-02",
+    "endDate": "2026-11-11",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0022",
+    "type": "foreign",
+    "title": "数字化产品经理",
+    "company": "宝马",
+    "short": "BMW",
+    "industry": "汽车制造",
+    "city": "沈阳",
+    "province": "辽宁",
+    "category": "产品与运营",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 25,
+    "salaryMax": 40,
+    "salaryText": "25-40K·15薪",
+    "source": "LinkedIn",
+    "tags": [
+      "汽车数字化",
+      "用户体验",
+      "敏捷"
+    ],
+    "updatedMinutes": 117,
+    "postedDays": 4,
+    "color": "#375e68",
+    "description": "负责数字化产品经理相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-22",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0023",
+    "type": "foreign",
+    "title": "机器人控制工程师",
+    "company": "ABB",
+    "short": "ABB",
+    "industry": "工业机器人",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 24,
+    "salaryMax": 38,
+    "salaryText": "24-38K·14薪",
+    "source": "猎聘",
+    "tags": [
+      "机器人",
+      "运动控制",
+      "C++"
+    ],
+    "updatedMinutes": 143,
+    "postedDays": 5,
+    "color": "#7d4f61",
+    "description": "负责机器人控制工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0024",
+    "type": "foreign",
+    "title": "工艺工程师",
+    "company": "空气化工",
+    "short": "APD",
+    "industry": "工业气体",
+    "city": "南京",
+    "province": "江苏",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 17,
+    "salaryMax": 26,
+    "salaryText": "17-26K·14薪",
+    "source": "前程无忧",
+    "tags": [
+      "化工工艺",
+      "现场管理",
+      "EHS"
+    ],
+    "updatedMinutes": 169,
+    "postedDays": 5,
+    "color": "#14615b",
+    "description": "负责工艺工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-10",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0025",
+    "type": "foreign",
+    "title": "供应链计划专员",
+    "company": "宜家",
+    "short": "IKEA",
+    "industry": "家居零售",
+    "city": "上海",
+    "province": "上海",
+    "category": "供应链与采购",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 15,
+    "salaryMax": 24,
+    "salaryText": "15-24K·14薪",
+    "source": "LinkedIn",
+    "tags": [
+      "供应链计划",
+      "零售",
+      "数据分析"
+    ],
+    "updatedMinutes": 205,
+    "postedDays": 6,
+    "color": "#315b8a",
+    "description": "负责供应链计划专员相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备1-3年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-20",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0026",
+    "type": "foreign",
+    "title": "电商运营经理",
+    "company": "达能",
+    "short": "Danone",
+    "industry": "消费品",
+    "city": "广州",
+    "province": "广东",
+    "category": "产品与运营",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 20,
+    "salaryMax": 32,
+    "salaryText": "20-32K·14薪",
+    "source": "猎聘",
+    "tags": [
+      "电商",
+      "增长运营",
+      "母婴"
+    ],
+    "updatedMinutes": 241,
+    "postedDays": 7,
+    "color": "#9b4f3f",
+    "description": "负责电商运营经理相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-29",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0027",
+    "type": "foreign",
+    "title": "云计算解决方案顾问",
+    "company": "微软",
+    "short": "MS",
+    "industry": "软件/云服务",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "5年以上",
+    "salaryMin": 32,
+    "salaryMax": 52,
+    "salaryText": "32-52K·16薪",
+    "source": "LinkedIn",
+    "tags": [
+      "Azure",
+      "企业服务",
+      "英文办公"
+    ],
+    "updatedMinutes": 286,
+    "postedDays": 8,
+    "color": "#526b47",
+    "description": "负责云计算解决方案顾问相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备5年以上相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-09-28",
+    "endDate": "2026-11-07",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0028",
+    "type": "foreign",
+    "title": "医疗系统软件开发工程师",
+    "company": "飞利浦",
+    "short": "PHI",
+    "industry": "医疗科技",
+    "city": "苏州",
+    "province": "江苏",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 22,
+    "salaryMax": 36,
+    "salaryText": "22-36K·15薪",
+    "source": "猎聘",
+    "tags": [
+      "医疗软件",
+      "C#",
+      "质量体系"
+    ],
+    "updatedMinutes": 335,
+    "postedDays": 9,
+    "color": "#775d8d",
+    "description": "负责医疗系统软件开发工程师相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-09-27",
+    "endDate": "2026-10-17",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0029",
+    "type": "foreign",
+    "title": "数据科学家",
+    "company": "拜耳",
+    "short": "BAYER",
+    "industry": "医药健康",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 30,
+    "salaryMax": 48,
+    "salaryText": "30-48K·15薪",
+    "source": "LinkedIn",
+    "tags": [
+      "机器学习",
+      "Python",
+      "医药数据"
+    ],
+    "updatedMinutes": 388,
+    "postedDays": 10,
+    "color": "#b06a23",
+    "description": "负责数据科学家相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-09-26",
+    "endDate": "2026-10-26",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "foreign-0030",
+    "type": "foreign",
+    "title": "数字化转型顾问",
+    "company": "埃森哲",
+    "short": "ACN",
+    "industry": "专业服务",
+    "city": "深圳",
+    "province": "广东",
+    "category": "咨询与服务",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 23,
+    "salaryMax": 38,
+    "salaryText": "23-38K·14薪",
+    "source": "猎聘",
+    "tags": [
+      "数字化咨询",
+      "英文办公",
+      "项目管理"
+    ],
+    "updatedMinutes": 470,
+    "postedDays": 12,
+    "color": "#375e68",
+    "description": "负责数字化转型顾问相关业务规划、方案设计与项目落地，与跨职能团队协同推进关键目标。岗位为全国招聘聚合页面中的演示样例，具体职责以来源平台正式公告为准。",
+    "requirements": [
+      "本科及以上，具备3-5年相关经验或同等项目能力",
+      "具备良好的结构化分析、沟通协作和问题解决能力",
+      "能够适应跨团队协作，有大型企业或相关行业项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "专业培训"
+    ],
+    "startDate": "2026-09-24",
+    "endDate": "2026-11-03",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0001",
+    "type": "soe",
+    "title": "配电运维技术员",
+    "company": "国网江苏省电力有限公司",
+    "short": "国网",
+    "industry": "能源/电力",
+    "city": "南京",
+    "province": "江苏",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 6,
+    "salaryMax": 10,
+    "salaryText": "6-10K·13薪",
+    "source": "国聘",
+    "tags": [
+      "专科可投",
+      "电力运维",
+      "校招",
+      "技术员"
+    ],
+    "updatedMinutes": 3,
+    "postedDays": 1,
+    "color": "#9b4f3f",
+    "description": "负责配电设备巡检、运行维护与现场技术支持。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "groupCompany": "国家电网有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "国家电网有限公司",
+      "国网江苏省电力有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-19",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0002",
+    "type": "soe",
+    "title": "车辆装配调试技术员",
+    "company": "中车青岛四方机车车辆股份有限公司",
+    "short": "中车",
+    "industry": "轨道交通",
+    "city": "青岛",
+    "province": "山东",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 7,
+    "salaryMax": 12,
+    "salaryText": "7-12K·13薪",
+    "source": "国聘",
+    "tags": [
+      "专科可投",
+      "轨道交通",
+      "装配调试",
+      "制造"
+    ],
+    "updatedMinutes": 12,
+    "postedDays": 1,
+    "color": "#315b8a",
+    "description": "负责轨道车辆装配、调试及质量检查。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "groupCompany": "中国中车集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国中车集团有限公司",
+      "中车青岛四方机车车辆股份有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-04",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0003",
+    "type": "soe",
+    "title": "运维支持工程师",
+    "company": "中邮信息科技（北京）有限公司",
+    "short": "中邮",
+    "industry": "信息技术",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 8,
+    "salaryMax": 13,
+    "salaryText": "8-13K·13薪",
+    "source": "国聘",
+    "tags": [
+      "专科可投",
+      "系统运维",
+      "技术支持",
+      "信息技术"
+    ],
+    "updatedMinutes": 18,
+    "postedDays": 2,
+    "color": "#526b47",
+    "description": "负责企业应用系统运行保障与终端技术支持。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "groupCompany": "中国邮政集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国邮政集团有限公司",
+      "中邮信息科技（北京）有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-13",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0004",
+    "type": "soe",
+    "title": "项目安全员",
+    "company": "中建三局集团有限公司",
+    "short": "中建",
+    "industry": "工程建设",
+    "city": "成都",
+    "province": "四川",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 8,
+    "salaryMax": 14,
+    "salaryText": "8-14K·13薪",
+    "source": "前程无忧",
+    "tags": [
+      "专科可投",
+      "安全管理",
+      "项目现场",
+      "工程"
+    ],
+    "updatedMinutes": 25,
+    "postedDays": 2,
+    "color": "#775d8d",
+    "description": "负责工程现场安全巡查、隐患整改和资料管理。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "groupCompany": "中国建筑集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国建筑集团有限公司",
+      "中建三局集团有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-04",
+    "endDate": "2026-10-24",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0005",
+    "type": "soe",
+    "title": "粮库仓储管理员",
+    "company": "中粮贸易有限公司",
+    "short": "中粮",
+    "industry": "食品/农业",
+    "city": "郑州",
+    "province": "河南",
+    "category": "供应链与采购",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 6,
+    "salaryMax": 9,
+    "salaryText": "6-9K·13薪",
+    "source": "国聘",
+    "tags": [
+      "专科可投",
+      "仓储管理",
+      "供应链",
+      "应届"
+    ],
+    "updatedMinutes": 34,
+    "postedDays": 3,
+    "color": "#b06a23",
+    "description": "负责粮库仓储数据、出入库流程和现场协调。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "groupCompany": "中粮集团有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中粮集团有限公司",
+      "中粮贸易有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-17",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0006",
+    "type": "soe",
+    "title": "数据录入与运营专员",
+    "company": "华润深国投投资有限公司",
+    "short": "华润",
+    "industry": "金融/综合",
+    "city": "深圳",
+    "province": "广东",
+    "category": "职能管理",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 7,
+    "salaryMax": 11,
+    "salaryText": "7-11K·13薪",
+    "source": "猎聘",
+    "tags": [
+      "专科可投",
+      "数据运营",
+      "信息录入",
+      "办公软件"
+    ],
+    "updatedMinutes": 48,
+    "postedDays": 3,
+    "color": "#375e68",
+    "description": "负责业务数据核对、信息录入和运营支持。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "groupCompany": "华润（集团）有限公司",
+    "companyLevel": "二级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "华润（集团）有限公司",
+      "华润深国投投资有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-17",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0007",
+    "type": "foreign",
+    "title": "设备维护技术员",
+    "company": "博世",
+    "short": "BOSCH",
+    "industry": "汽车科技",
+    "city": "苏州",
+    "province": "江苏",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 8,
+    "salaryMax": 13,
+    "salaryText": "8-13K·13薪",
+    "source": "前程无忧",
+    "tags": [
+      "专科可投",
+      "设备维护",
+      "机电",
+      "制造"
+    ],
+    "updatedMinutes": 8,
+    "postedDays": 1,
+    "color": "#7d4f61",
+    "description": "负责生产设备点检、维护和故障基础排查。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-25",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0008",
+    "type": "foreign",
+    "title": "生产线电气技术员",
+    "company": "施耐德电气",
+    "short": "SE",
+    "industry": "电气设备",
+    "city": "无锡",
+    "province": "江苏",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 7,
+    "salaryMax": 12,
+    "salaryText": "7-12K·13薪",
+    "source": "猎聘",
+    "tags": [
+      "专科可投",
+      "电气技术",
+      "生产线",
+      "自动化"
+    ],
+    "updatedMinutes": 21,
+    "postedDays": 2,
+    "color": "#14615b",
+    "description": "负责生产线电气设备调试、维护与异常处理。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-03",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0009",
+    "type": "foreign",
+    "title": "机器人调试技术员",
+    "company": "ABB",
+    "short": "ABB",
+    "industry": "工业机器人",
+    "city": "上海",
+    "province": "上海",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 9,
+    "salaryMax": 14,
+    "salaryText": "9-14K·13薪",
+    "source": "LinkedIn",
+    "tags": [
+      "专科可投",
+      "机器人调试",
+      "自动化",
+      "PLC"
+    ],
+    "updatedMinutes": 36,
+    "postedDays": 2,
+    "color": "#9b4f3f",
+    "description": "负责工业机器人基础调试、参数配置和现场支持。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-13",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0010",
+    "type": "foreign",
+    "title": "门店物流专员",
+    "company": "宜家",
+    "short": "IKEA",
+    "industry": "家居零售",
+    "city": "杭州",
+    "province": "浙江",
+    "category": "供应链与采购",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 6,
+    "salaryMax": 9,
+    "salaryText": "6-9K·13薪",
+    "source": "LinkedIn",
+    "tags": [
+      "专科可投",
+      "门店物流",
+      "库存管理",
+      "零售"
+    ],
+    "updatedMinutes": 55,
+    "postedDays": 3,
+    "color": "#315b8a",
+    "description": "负责门店收货、补货、库存盘点和物流协调。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "startDate": "2026-10-03",
+    "endDate": "2026-11-17",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0011",
+    "type": "foreign",
+    "title": "生产质量检验员",
+    "company": "雀巢",
+    "short": "Nestlé",
+    "industry": "消费品",
+    "city": "苏州",
+    "province": "江苏",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 7,
+    "salaryMax": 11,
+    "salaryText": "7-11K·13薪",
+    "source": "前程无忧",
+    "tags": [
+      "专科可投",
+      "质量检验",
+      "食品生产",
+      "EHS"
+    ],
+    "updatedMinutes": 76,
+    "postedDays": 4,
+    "color": "#526b47",
+    "description": "负责生产线质量检查、样品记录和异常反馈。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "startDate": "2026-10-02",
+    "endDate": "2026-11-01",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "voc-0012",
+    "type": "foreign",
+    "title": "电商订单专员",
+    "company": "达能",
+    "short": "Danone",
+    "industry": "消费品",
+    "city": "广州",
+    "province": "广东",
+    "category": "产品与运营",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 6,
+    "salaryMax": 10,
+    "salaryText": "6-10K·13薪",
+    "source": "猎聘",
+    "tags": [
+      "专科可投",
+      "电商订单",
+      "客服协同",
+      "Excel"
+    ],
+    "updatedMinutes": 102,
+    "postedDays": 5,
+    "color": "#775d8d",
+    "description": "负责电商订单处理、库存对接和履约进度跟踪。",
+    "requirements": [
+      "大专及以上学历，专业基础扎实",
+      "具备良好的执行力和沟通协作能力",
+      "有相关实训、项目或实习经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "技能培训",
+      "年度体检"
+    ],
+    "vocationalFriendly": true,
+    "startDate": "2026-10-01",
+    "endDate": "2026-11-15",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0001",
+    "type": "soe",
+    "title": "应急工程技术员",
+    "company": "中国安能建设集团",
+    "short": "安能",
+    "industry": "应急工程",
+    "city": "南昌",
+    "province": "江西",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 7,
+    "salaryMax": 12,
+    "salaryText": "7-12K·13薪",
+    "source": "国聘",
+    "tags": [
+      "小众央企",
+      "应急工程",
+      "专科可投"
+    ],
+    "updatedMinutes": 2,
+    "postedDays": 1,
+    "color": "#9b4f3f",
+    "description": "负责应急工程现场技术支持、设备巡检和项目资料整理。",
+    "requirements": [
+      "大专及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-25",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0002",
+    "type": "soe",
+    "title": "仓储物流专员",
+    "company": "中国物流集团",
+    "short": "中国物流",
+    "industry": "物流供应链",
+    "city": "武汉",
+    "province": "湖北",
+    "category": "供应链与采购",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 6,
+    "salaryMax": 10,
+    "salaryText": "6-10K·13薪",
+    "source": "国聘",
+    "tags": [
+      "小众央企",
+      "物流",
+      "专科可投"
+    ],
+    "updatedMinutes": 4,
+    "postedDays": 1,
+    "color": "#315b8a",
+    "description": "负责仓储数据核对、出入库协调和物流进度跟踪。",
+    "requirements": [
+      "大专及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-19",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0003",
+    "type": "soe",
+    "title": "Java开发工程师",
+    "company": "中国民航信息集团",
+    "short": "中国航信",
+    "industry": "民航信息",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·13薪",
+    "source": "国聘",
+    "tags": [
+      "小众央企",
+      "民航软件",
+      "技术岗"
+    ],
+    "updatedMinutes": 7,
+    "postedDays": 1,
+    "color": "#526b47",
+    "description": "负责民航信息服务系统开发、接口联调和运行支持。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-14",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0004",
+    "type": "soe",
+    "title": "核电运行值班员",
+    "company": "中国广核集团",
+    "short": "中广核",
+    "industry": "核电能源",
+    "city": "深圳",
+    "province": "广东",
+    "category": "工程与制造",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 9,
+    "salaryMax": 15,
+    "salaryText": "9-15K·13薪",
+    "source": "国聘",
+    "tags": [
+      "小众央企",
+      "核电",
+      "专科可投"
+    ],
+    "updatedMinutes": 10,
+    "postedDays": 2,
+    "color": "#775d8d",
+    "description": "参与核电运行辅助、设备巡检和安全数据记录。",
+    "requirements": [
+      "大专及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-18",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0005",
+    "type": "soe",
+    "title": "检验工程师",
+    "company": "中国检验认证集团",
+    "short": "中检集团",
+    "industry": "检验检测",
+    "city": "上海",
+    "province": "上海",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 10,
+    "salaryMax": 16,
+    "salaryText": "10-16K·13薪",
+    "source": "前程无忧",
+    "tags": [
+      "小众央企",
+      "检验检测",
+      "质量"
+    ],
+    "updatedMinutes": 13,
+    "postedDays": 2,
+    "color": "#b06a23",
+    "description": "负责产品检验、检测数据记录和报告复核。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-03",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0006",
+    "type": "soe",
+    "title": "药品采购专员",
+    "company": "中国医药集团",
+    "short": "国药集团",
+    "industry": "医药健康",
+    "city": "北京",
+    "province": "北京",
+    "category": "供应链与采购",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 10,
+    "salaryMax": 16,
+    "salaryText": "10-16K·13薪",
+    "source": "国聘",
+    "tags": [
+      "小众央企",
+      "医药采购",
+      "供应链"
+    ],
+    "updatedMinutes": 16,
+    "postedDays": 2,
+    "color": "#14615b",
+    "description": "负责药品采购计划、供应商沟通和订单履约跟踪。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-13",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0007",
+    "type": "foreign",
+    "title": "嵌入式测试工程师",
+    "company": "采埃孚",
+    "short": "ZF",
+    "industry": "汽车零部件",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 16,
+    "salaryMax": 26,
+    "salaryText": "16-26K·13薪",
+    "source": "LinkedIn",
+    "tags": [
+      "小众外企",
+      "汽车电子",
+      "测试"
+    ],
+    "updatedMinutes": 5,
+    "postedDays": 1,
+    "color": "#9b4f3f",
+    "description": "负责汽车嵌入式软件测试、问题定位和测试报告。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-25",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0008",
+    "type": "foreign",
+    "title": "供应链计划专员",
+    "company": "汉高",
+    "short": "Henkel",
+    "industry": "工业化工",
+    "city": "上海",
+    "province": "上海",
+    "category": "供应链与采购",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 13,
+    "salaryMax": 22,
+    "salaryText": "13-22K·13薪",
+    "source": "猎聘",
+    "tags": [
+      "小众外企",
+      "供应链",
+      "消费品"
+    ],
+    "updatedMinutes": 9,
+    "postedDays": 1,
+    "color": "#315b8a",
+    "description": "负责需求计划、库存分析和跨部门供应协同。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-04",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0009",
+    "type": "foreign",
+    "title": "光学应用工程师",
+    "company": "蔡司",
+    "short": "ZEISS",
+    "industry": "光学科技",
+    "city": "苏州",
+    "province": "江苏",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 15,
+    "salaryMax": 25,
+    "salaryText": "15-25K·13薪",
+    "source": "LinkedIn",
+    "tags": [
+      "小众外企",
+      "光学",
+      "工程师"
+    ],
+    "updatedMinutes": 12,
+    "postedDays": 1,
+    "color": "#526b47",
+    "description": "负责光学产品应用支持、参数验证和客户技术沟通。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-05",
+    "endDate": "2026-11-14",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0010",
+    "type": "foreign",
+    "title": "电气工程师",
+    "company": "丹佛斯",
+    "short": "Danfoss",
+    "industry": "能源效率",
+    "city": "天津",
+    "province": "天津",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 12,
+    "salaryMax": 20,
+    "salaryText": "12-20K·13薪",
+    "source": "前程无忧",
+    "tags": [
+      "小众外企",
+      "电气",
+      "能源效率"
+    ],
+    "updatedMinutes": 15,
+    "postedDays": 2,
+    "color": "#775d8d",
+    "description": "负责电气系统方案设计、调试和技术文档维护。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-10-24",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0011",
+    "type": "foreign",
+    "title": "临床数据专员",
+    "company": "礼来",
+    "short": "Lilly",
+    "industry": "医药健康",
+    "city": "上海",
+    "province": "上海",
+    "category": "咨询与服务",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 15,
+    "salaryMax": 24,
+    "salaryText": "15-24K·13薪",
+    "source": "LinkedIn",
+    "tags": [
+      "小众外企",
+      "医药",
+      "临床数据"
+    ],
+    "updatedMinutes": 18,
+    "postedDays": 2,
+    "color": "#b06a23",
+    "description": "负责临床试验数据核查、文档维护和流程协调。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-03",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "id": "niche-0012",
+    "type": "foreign",
+    "title": "海运客服专员",
+    "company": "马士基",
+    "short": "Maersk",
+    "industry": "国际物流",
+    "city": "深圳",
+    "province": "广东",
+    "category": "咨询与服务",
+    "education": "本科及以上",
+    "experience": "应届生",
+    "salaryMin": 9,
+    "salaryMax": 14,
+    "salaryText": "9-14K·13薪",
+    "source": "猎聘",
+    "tags": [
+      "小众外企",
+      "航运",
+      "客服"
+    ],
+    "updatedMinutes": 21,
+    "postedDays": 2,
+    "color": "#14615b",
+    "description": "负责海运订单跟进、客户沟通和异常问题协调。",
+    "requirements": [
+      "本科及以上，具备相关专业基础",
+      "有项目、实训或实习经历优先",
+      "具备良好的沟通协作和问题解决能力"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "专业培训",
+      "年度体检"
+    ],
+    "lessKnown": true,
+    "startDate": "2026-10-04",
+    "endDate": "2026-11-18",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准"
+  },
+  {
+    "source": "猎聘",
+    "updatedMinutes": 9,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责四足与人形机器人运动控制策略的强化学习训练与 Sim2Real 落地：搭建并行仿真环境、设计奖励与课程学习、完成真机部署与调参。岗位为演示样例，具体职责与在招状态以宇树科技官网及招聘平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，机器人、自动化或计算机相关专业",
+      "熟悉 PyTorch 与 Isaac Gym / MuJoCo 等仿真环境",
+      "有强化学习、运动控制或 Sim2Real 项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度体检",
+      "带薪年假",
+      "真机实操机会"
+    ],
+    "id": "embodied-0001",
+    "type": "embodied",
+    "title": "具身智能算法工程师（强化学习）",
+    "company": "宇树科技",
+    "short": "Unitree",
+    "industry": "机器人/具身智能",
+    "city": "杭州",
+    "province": "浙江",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 30,
+    "salaryMax": 55,
+    "salaryText": "30-55K·15薪",
+    "tags": [
+      "具身智能",
+      "强化学习",
+      "运动控制"
+    ],
+    "color": "#2f6f63"
+  },
+  {
+    "source": "BOSS直聘",
+    "updatedMinutes": 23,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "参与视觉-语言-动作（VLA）大模型的训练与部署：数据采集与清洗、模仿学习与扩散策略训练、真机评测与迭代。岗位为演示样例，具体职责与在招状态以企业官网及招聘平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，计算机、人工智能或机器人相关专业",
+      "熟悉 PyTorch、Transformer 与模仿学习/扩散策略",
+      "有机器人数据集或真机部署经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "股票期权",
+      "带薪年假",
+      "真机数据资源"
+    ],
+    "id": "embodied-0002",
+    "type": "embodied",
+    "title": "VLA 算法工程师",
+    "company": "智元机器人",
+    "short": "AGIBOT",
+    "industry": "机器人/具身智能",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 35,
+    "salaryMax": 65,
+    "salaryText": "35-65K·14薪",
+    "tags": [
+      "具身智能",
+      "VLA",
+      "模仿学习"
+    ],
+    "color": "#3a5f8a"
+  },
+  {
+    "source": "前程无忧",
+    "updatedMinutes": 41,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责人形机器人全身运动控制算法开发：步态规划、平衡控制、关节伺服调试与整机联调。岗位为演示样例，具体职责与在招状态以优必选官网及招聘平台正式公告为准。",
+    "requirements": [
+      "本科及以上，自动化、机械电子或计算机相关专业",
+      "熟悉 C++ 与现代控制理论，了解 WBC / MPC",
+      "有足式机器人或伺服调试项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "人才公寓",
+      "带薪年假",
+      "专业培训"
+    ],
+    "id": "embodied-0003",
+    "type": "embodied",
+    "title": "人形机器人运动控制工程师",
+    "company": "优必选",
+    "short": "UBTECH",
+    "industry": "机器人/人形机器人",
+    "city": "深圳",
+    "province": "广东",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 25,
+    "salaryMax": 45,
+    "salaryText": "25-45K·14薪",
+    "tags": [
+      "具身智能",
+      "人形机器人",
+      "运动控制"
+    ],
+    "color": "#7a5aa6"
+  },
+  {
+    "source": "BOSS直聘",
+    "updatedMinutes": 17,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "参与抓取与操作类具身大模型的研发：大规模仿真数据生成、扩散策略训练、真机部署与泛化评测。岗位为演示样例，具体职责与在招状态以企业官网及招聘平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，计算机、人工智能或机器人相关专业",
+      "熟悉 PyTorch 与主流具身操作算法（ACT / Diffusion Policy 等）",
+      "有顶会论文或机器人竞赛经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "股票期权",
+      "弹性工作",
+      "算力资源"
+    ],
+    "id": "embodied-0004",
+    "type": "embodied",
+    "title": "具身大模型算法工程师",
+    "company": "银河通用机器人",
+    "short": "Galbot",
+    "industry": "机器人/具身智能",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 30,
+    "salaryMax": 55,
+    "salaryText": "30-55K·15薪",
+    "tags": [
+      "具身智能",
+      "具身大模型",
+      "抓取"
+    ],
+    "color": "#2b6f7a"
+  },
+  {
+    "source": "猎聘",
+    "updatedMinutes": 52,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责机器人与无人机平台的环境感知算法研发：多传感器融合、SLAM 建图定位、障碍物检测与避障。岗位为演示样例，具体职责与在招状态以大疆招聘官网正式公告为准。",
+    "requirements": [
+      "硕士及以上，计算机、自动化或机器人相关专业",
+      "熟悉 C++ / Python 与视觉、激光雷达感知算法",
+      "有 SLAM 或量产感知项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度奖金",
+      "员工内购",
+      "专业培训"
+    ],
+    "id": "embodied-0005",
+    "type": "embodied",
+    "title": "机器人感知算法工程师",
+    "company": "大疆创新",
+    "short": "DJI",
+    "industry": "无人机/机器人",
+    "city": "深圳",
+    "province": "广东",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 30,
+    "salaryMax": 55,
+    "salaryText": "30-55K·15薪",
+    "tags": [
+      "具身智能",
+      "SLAM",
+      "感知算法"
+    ],
+    "color": "#4a6b8a"
+  },
+  {
+    "source": "BOSS直聘",
+    "updatedMinutes": 33,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责四足机器人运动控制与步态算法开发：MPC / WBC 控制器实现、地形适应与整机测试。岗位为演示样例，具体职责与在招状态以云深处科技官网及招聘平台正式公告为准。",
+    "requirements": [
+      "本科及以上，自动化、机械电子或计算机相关专业",
+      "熟悉 C++、ROS 与现代控制方法",
+      "有足式机器人项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "年度体检",
+      "项目奖金"
+    ],
+    "id": "embodied-0006",
+    "type": "embodied",
+    "title": "四足机器人控制算法工程师",
+    "company": "云深处科技",
+    "short": "DEEP",
+    "industry": "机器人/四足机器人",
+    "city": "杭州",
+    "province": "浙江",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 20,
+    "salaryMax": 40,
+    "salaryText": "20-40K·14薪",
+    "tags": [
+      "具身智能",
+      "四足机器人",
+      "控制算法"
+    ],
+    "color": "#2f7a5f"
+  },
+  {
+    "source": "前程无忧",
+    "updatedMinutes": 68,
+    "postedDays": 3,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责人形机器人软件系统开发：基于 ROS2 的模块架构、传感器与执行器接入、仿真与真机联调。岗位为演示样例，具体职责与在招状态以傅利叶智能官网及招聘平台正式公告为准。",
+    "requirements": [
+      "本科及以上，计算机、自动化或机器人相关专业",
+      "熟悉 ROS2、C++ / Python 与实时通信机制",
+      "有机器人整机软件或仿真联调经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "年度体检",
+      "专业培训"
+    ],
+    "id": "embodied-0007",
+    "type": "embodied",
+    "title": "人形机器人软件工程师（ROS2）",
+    "company": "傅利叶智能",
+    "short": "FOURIER",
+    "industry": "机器人/人形机器人",
+    "city": "上海",
+    "province": "上海",
+    "category": "工程与制造",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 22,
+    "salaryMax": 40,
+    "salaryText": "22-40K·14薪",
+    "tags": [
+      "具身智能",
+      "ROS2",
+      "人形机器人"
+    ],
+    "color": "#8a5aa0"
+  },
+  {
+    "source": "猎聘",
+    "updatedMinutes": 14,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责具身智能数据引擎与仿真管线建设：Isaac Sim 场景搭建、合成数据生成、真机数据采集与回传链路。岗位为演示样例，具体职责与在招状态以华为招聘官网正式公告为准。",
+    "requirements": [
+      "本科及以上，计算机、机器人或自动化相关专业",
+      "熟悉 Isaac Sim / MuJoCo 与 Python 工具链",
+      "有大规模数据管线或仿真平台经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度奖金",
+      "带薪年假",
+      "专业培训"
+    ],
+    "id": "embodied-0008",
+    "type": "embodied",
+    "title": "具身智能数据与仿真工程师",
+    "company": "华为",
+    "short": "HUAWEI",
+    "industry": "通信/人工智能",
+    "city": "深圳",
+    "province": "广东",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 30,
+    "salaryMax": 60,
+    "salaryText": "30-60K·16薪",
+    "tags": [
+      "具身智能",
+      "Isaac Sim",
+      "数据引擎"
+    ],
+    "color": "#a03a3a"
+  },
+  {
+    "source": "BOSS直聘",
+    "updatedMinutes": 27,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责双足机器人强化学习控制：并行仿真训练、域随机化、策略蒸馏与真机 Sim2Real 迁移。岗位为演示样例，具体职责与在招状态以逐际动力官网及招聘平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，机器人、控制或计算机相关专业",
+      "熟悉 Isaac Gym / MuJoCo 与 PPO 等强化学习算法",
+      "有足式机器人 Sim2Real 经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "股票期权",
+      "带薪年假",
+      "真机实验资源"
+    ],
+    "id": "embodied-0009",
+    "type": "embodied",
+    "title": "双足机器人强化学习工程师",
+    "company": "逐际动力",
+    "short": "LimX",
+    "industry": "机器人/双足机器人",
+    "city": "深圳",
+    "province": "广东",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "1-3年",
+    "salaryMin": 28,
+    "salaryMax": 50,
+    "salaryText": "28-50K·14薪",
+    "tags": [
+      "具身智能",
+      "双足机器人",
+      "Sim2Real"
+    ],
+    "color": "#33628c"
+  },
+  {
+    "source": "猎聘",
+    "updatedMinutes": 45,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "参与机器人整机系统软件开发：模块架构设计、通信中间件、设备驱动与软硬件联调。岗位为演示样例，具体职责与在招状态以小米招聘官网正式公告为准。",
+    "requirements": [
+      "本科及以上，计算机、电子或自动化相关专业",
+      "熟悉 C++、Linux 与 ROS2 等机器人中间件",
+      "有整机产品或嵌入式系统经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "年度奖金",
+      "员工内购",
+      "带薪年假"
+    ],
+    "id": "embodied-0010",
+    "type": "embodied",
+    "title": "机器人系统软件工程师",
+    "company": "小米",
+    "short": "Xiaomi",
+    "industry": "消费电子/机器人",
+    "city": "北京",
+    "province": "北京",
+    "category": "技术研发",
+    "education": "本科及以上",
+    "experience": "3-5年",
+    "salaryMin": 25,
+    "salaryMax": 50,
+    "salaryText": "25-50K·15薪",
+    "tags": [
+      "具身智能",
+      "机器人系统",
+      "C++"
+    ],
+    "color": "#b06a23"
+  },
+  {
+    "source": "国聘",
+    "updatedMinutes": 36,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责机器人具身智能算法研究与工程落地：感知-决策-控制链路搭建、仿真验证与整机联调。岗位为演示样例，具体职责与报名时间以中国电科官网正式公告为准。",
+    "requirements": [
+      "硕士及以上，人工智能、控制或计算机相关专业",
+      "熟悉 PyTorch 与强化学习、模仿学习等算法",
+      "有机器人项目或科研院所经历优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "企业年金",
+      "带薪年假",
+      "科研平台"
+    ],
+    "groupCompany": "中国电子科技集团有限公司",
+    "companyLevel": "二级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "中国电子科技集团有限公司",
+      "中国电子科技集团公司第二十一研究所"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "id": "soe-0031",
+    "type": "soe",
+    "title": "具身智能算法工程师",
+    "company": "中国电子科技集团公司第二十一研究所",
+    "short": "中国电科",
+    "industry": "电子信息/机器人",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 25,
+    "salaryMax": 45,
+    "salaryText": "25-45K·15薪",
+    "tags": [
+      "具身智能",
+      "机器人",
+      "算法"
+    ],
+    "color": "#315b8a"
+  },
+  {
+    "source": "国聘",
+    "updatedMinutes": 58,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "负责变电站巡检与人形作业机器人的运动控制算法开发与现场验证。岗位为演示样例，具体职责与报名时间以国家电网招聘平台正式公告为准。",
+    "requirements": [
+      "硕士及以上，自动化、控制或机器人相关专业",
+      "熟悉运动学/动力学建模与 C++ 开发",
+      "有电力机器人或现场调试经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "企业年金",
+      "带薪年假",
+      "驻场补贴"
+    ],
+    "groupCompany": "国家电网有限公司",
+    "companyLevel": "一级子公司",
+    "ownershipPath": [
+      "国务院国资委",
+      "国家电网有限公司",
+      "国网智能科技股份有限公司"
+    ],
+    "organizationNote": "演示层级标注，正式组织关系以企业公告为准",
+    "id": "soe-0032",
+    "type": "soe",
+    "title": "电力机器人运动控制工程师",
+    "company": "国网智能科技股份有限公司",
+    "short": "国网智能",
+    "industry": "电力/机器人",
+    "city": "济南",
+    "province": "山东",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 22,
+    "salaryMax": 38,
+    "salaryText": "22-38K·15薪",
+    "tags": [
+      "具身智能",
+      "电力机器人",
+      "运动控制"
+    ],
+    "color": "#2f6f63"
+  },
+  {
+    "source": "LinkedIn",
+    "updatedMinutes": 21,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "基于 Isaac Sim / Isaac Lab 构建机器人与具身智能仿真环境，支持并行训练、域随机化与 Sim2Real 工作流。岗位为演示样例，具体职责与在招状态以 NVIDIA 官方招聘页正式公告为准。",
+    "requirements": [
+      "硕士及以上，计算机、机器人或相关专业",
+      "熟悉 Python / C++ 与 Isaac Sim、MuJoCo 等仿真平台",
+      "有机器人学习或仿真平台开发经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "补充商保",
+      "弹性办公",
+      "股票激励"
+    ],
+    "id": "foreign-0031",
+    "type": "foreign",
+    "title": "机器人仿真工程师（Isaac Lab）",
+    "company": "NVIDIA",
+    "short": "NVIDIA",
+    "industry": "半导体/人工智能",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 40,
+    "salaryMax": 70,
+    "salaryText": "40-70K·15薪",
+    "tags": [
+      "具身智能",
+      "Isaac Sim",
+      "仿真"
+    ],
+    "color": "#4f7a3f"
+  },
+  {
+    "source": "LinkedIn",
+    "updatedMinutes": 47,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "description": "参与人形机器人软件栈开发：运动控制、感知与任务规划模块的集成与真机验证。岗位为演示样例，具体职责与在招状态以特斯拉官方招聘页正式公告为准。",
+    "requirements": [
+      "硕士及以上，计算机、机器人或自动化相关专业",
+      "熟练使用 Python / C++，了解现代机器人软件栈",
+      "有机器人整机或自动驾驶项目经验优先"
+    ],
+    "benefits": [
+      "五险一金",
+      "补充商保",
+      "股票激励",
+      "带薪年假"
+    ],
+    "id": "foreign-0032",
+    "type": "foreign",
+    "title": "人形机器人软件工程师（Optimus）",
+    "company": "特斯拉",
+    "short": "Tesla",
+    "industry": "汽车/机器人",
+    "city": "上海",
+    "province": "上海",
+    "category": "技术研发",
+    "education": "硕士及以上",
+    "experience": "3-5年",
+    "salaryMin": 35,
+    "salaryMax": 65,
+    "salaryText": "35-65K·15薪",
+    "tags": [
+      "具身智能",
+      "人形机器人",
+      "Python"
+    ],
+    "color": "#a03a3a"
+  },
+  {
+    "type": "embodied",
+    "category": "工程与制造",
+    "updatedMinutes": 12,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "出差补贴",
+      "技能培训"
+    ],
+    "id": "embodied-0011",
+    "title": "机器人调试工程师",
+    "company": "宇树科技",
+    "short": "Unitree",
+    "industry": "机器人/具身智能",
+    "city": "杭州",
+    "province": "浙江",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 12,
+    "salaryMax": 22,
+    "salaryText": "12-22K·14薪",
+    "source": "BOSS直聘",
+    "tags": [
+      "具身智能",
+      "机器人调试",
+      "专科可投"
+    ],
+    "color": "#2f6f63",
+    "vocationalFriendly": true,
+    "description": "负责四足与人形机器人的整机装配、电气接线、参数标定与现场调试，配合研发完成问题定位。岗位为演示样例，具体职责与在招状态以宇树科技官网及招聘平台正式公告为准。",
+    "requirements": [
+      "大专及以上，机电一体化、自动化或电气相关专业",
+      "能看懂电气原理图与机械装配图，熟悉伺服电机、驱动器接线",
+      "可接受阶段性出差，有机器人或非标设备调试经验优先"
+    ]
+  },
+  {
+    "type": "embodied",
+    "category": "工程与制造",
+    "updatedMinutes": 28,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "benefits": [
+      "五险一金",
+      "股票期权",
+      "带薪年假",
+      "样机实践"
+    ],
+    "id": "embodied-0012",
+    "title": "机械结构工程师（人形机器人）",
+    "company": "智元机器人",
+    "short": "AGIBOT",
+    "industry": "机器人/具身智能",
+    "city": "上海",
+    "province": "上海",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 20,
+    "salaryMax": 35,
+    "salaryText": "20-35K·14薪",
+    "source": "猎聘",
+    "tags": [
+      "具身智能",
+      "机械设计",
+      "SolidWorks"
+    ],
+    "color": "#3a5f8a",
+    "description": "负责人形机器人关节、躯干与末端执行器的结构设计、强度校核与样机迭代。岗位为演示样例，具体职责与在招状态以企业官网及招聘平台正式公告为准。",
+    "requirements": [
+      "本科及以上，机械设计、机电一体化相关专业",
+      "熟练使用 SolidWorks / Creo，了解公差配合与常用材料工艺",
+      "有机器人、精密传动或消费电子结构经验优先"
+    ]
+  },
+  {
+    "type": "embodied",
+    "category": "工程与制造",
+    "updatedMinutes": 39,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "项目奖金",
+      "专业培训"
+    ],
+    "id": "embodied-0013",
+    "title": "机器人电气工程师",
+    "company": "逐际动力",
+    "short": "LimX",
+    "industry": "机器人/双足机器人",
+    "city": "深圳",
+    "province": "广东",
+    "education": "本科及以上",
+    "experience": "1-3年",
+    "salaryMin": 18,
+    "salaryMax": 30,
+    "salaryText": "18-30K·14薪",
+    "source": "前程无忧",
+    "tags": [
+      "具身智能",
+      "电气设计",
+      "线束"
+    ],
+    "color": "#33628c",
+    "description": "负责机器人整机电气方案设计、线束布局、电源与驱动选型，以及样机电气调试。岗位为演示样例，具体职责与在招状态以逐际动力官网及招聘平台正式公告为准。",
+    "requirements": [
+      "本科及以上，电气工程、机电一体化或自动化相关专业",
+      "熟悉电气原理图设计、线束工艺与 EMC 基础",
+      "有机器人或运动控制设备电气经验优先"
+    ]
+  },
+  {
+    "type": "embodied",
+    "category": "工程与制造",
+    "updatedMinutes": 55,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "年度体检",
+      "专业培训"
+    ],
+    "id": "embodied-0014",
+    "title": "机器人测试工程师",
+    "company": "优必选",
+    "short": "UBTECH",
+    "industry": "机器人/人形机器人",
+    "city": "深圳",
+    "province": "广东",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 13,
+    "salaryMax": 22,
+    "salaryText": "13-22K·13薪",
+    "source": "前程无忧",
+    "tags": [
+      "具身智能",
+      "测试验证",
+      "专科可投"
+    ],
+    "color": "#7a5aa6",
+    "vocationalFriendly": true,
+    "description": "负责人形机器人整机与关节模组的测试方案执行：功能测试、可靠性测试、问题记录与复现。岗位为演示样例，具体职责与在招状态以优必选官网及招聘平台正式公告为准。",
+    "requirements": [
+      "大专及以上，机电一体化、自动化或测控相关专业",
+      "会使用万用表、示波器等常用仪器，能独立写测试记录",
+      "有整机测试或可靠性测试经验优先"
+    ]
+  },
+  {
+    "type": "embodied",
+    "category": "工程与制造",
+    "updatedMinutes": 16,
+    "postedDays": 1,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "岗前培训",
+      "转岗机会"
+    ],
+    "id": "embodied-0015",
+    "title": "机器人数据采集与操作员",
+    "company": "银河通用机器人",
+    "short": "Galbot",
+    "industry": "机器人/具身智能",
+    "city": "北京",
+    "province": "北京",
+    "education": "大专及以上",
+    "experience": "应届生",
+    "salaryMin": 10,
+    "salaryMax": 16,
+    "salaryText": "10-16K·13薪",
+    "source": "BOSS直聘",
+    "tags": [
+      "具身智能",
+      "数据采集",
+      "专科可投"
+    ],
+    "color": "#2b6f7a",
+    "vocationalFriendly": true,
+    "description": "按照采集规范操作机械臂与遥操作设备，完成抓取数据采集、简单标注与数据质量检查。岗位为演示样例，具体职责与在招状态以企业官网及招聘平台正式公告为准。",
+    "requirements": [
+      "大专及以上，机电一体化、机器人或相关专业优先",
+      "动手能力强，能严格按 SOP 操作设备并记录数据",
+      "接受应届生，有机器人或产线操作经验优先"
+    ]
+  },
+  {
+    "type": "embodied",
+    "category": "工程与制造",
+    "updatedMinutes": 62,
+    "postedDays": 2,
+    "startDate": "2026-10-06",
+    "endDate": "2026-11-05",
+    "dateNote": "演示日期，正式报名时间以企业官网公告为准",
+    "benefits": [
+      "五险一金",
+      "带薪年假",
+      "项目奖金",
+      "技能培训"
+    ],
+    "id": "embodied-0016",
+    "title": "装配工艺工程师（人形机器人）",
+    "company": "众擎机器人",
+    "short": "ENGINEAI",
+    "industry": "机器人/人形机器人",
+    "city": "深圳",
+    "province": "广东",
+    "education": "大专及以上",
+    "experience": "1-3年",
+    "salaryMin": 12,
+    "salaryMax": 20,
+    "salaryText": "12-20K·13薪",
+    "source": "BOSS直聘",
+    "tags": [
+      "具身智能",
+      "装配工艺",
+      "专科可投"
+    ],
+    "color": "#8a5aa0",
+    "vocationalFriendly": true,
+    "description": "负责人形机器人整机装配工艺文件编制、工装设计、装配节拍优化与产线问题处理。岗位为演示样例，具体职责与在招状态以企业官网及招聘平台正式公告为准。",
+    "requirements": [
+      "大专及以上，机械制造、机电一体化或工业工程相关专业",
+      "熟悉装配工艺、公差分析与工装夹具设计",
+      "有机器人、汽车或精密装配产线经验优先"
+    ]
+  }
+];

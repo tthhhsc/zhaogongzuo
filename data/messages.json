@@ -1,0 +1,7 @@
+[
+  {"id":"welcome-001","nickname":"职途雷达小助手","category":"社区公告","content":"欢迎来到找工作留言板。可以在这里交流央国企备考、外企面试、岗位互助和求职进度。请勿发布个人敏感信息。","createdAt":"2026-09-10T09:10:00+08:00","likes":18,"color":"#0d685a","isAssistant":true},
+  {"id":"welcome-002","nickname":"秋招观察员","category":"面试经验","content":"央国企笔试建议提前确认行测、专业知识和企业文化题的占比，不同集团差异很大，以正式通知为准。","createdAt":"2026-09-10T10:25:00+08:00","likes":12,"color":"#2e5cb8","isAssistant":false},
+  {"id":"welcome-003","nickname":"简历打磨中","category":"求职交流","content":"外企岗位建议准备中英文双版本简历，项目描述尽量用结果和数字体现，投递前再针对 JD 调整关键词。","createdAt":"2026-09-10T11:40:00+08:00","likes":9,"color":"#b06a23","isAssistant":false},
+  {"id":"welcome-004","nickname":"新能源求职者","category":"岗位互助","content":"有同学了解新能源项目开发岗位的出差频率吗？希望可以交流一下不同企业的培养路径。","createdAt":"2026-09-10T13:05:00+08:00","likes":6,"color":"#526b47","isAssistant":false},
+  {"id":"welcome-005","nickname":"今日打卡","category":"备考打卡","content":"今日完成：专业题 30 道、英语听力 20 分钟、复盘一家目标企业文化。坚持比焦虑更有用。","createdAt":"2026-09-10T15:30:00+08:00","likes":15,"color":"#775d8d","isAssistant":false}
+]

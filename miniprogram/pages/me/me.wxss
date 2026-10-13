@@ -1,0 +1,169 @@
+.head {
+  padding: 36rpx 32rpx 44rpx;
+  background: linear-gradient(150deg, #0d685a 0%, #074c43 72%, #0a3b34 100%);
+  border-radius: 0 0 40rpx 40rpx;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-mark {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 26rpx;
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+  font-size: 46rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20rpx;
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-title {
+  color: #ffffff;
+  font-size: 38rpx;
+  font-weight: 700;
+}
+
+.brand-sub {
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 23rpx;
+}
+
+.head-stats {
+  display: flex;
+  margin-top: 30rpx;
+  padding-top: 26rpx;
+  border-top: 1rpx solid rgba(255, 255, 255, 0.16);
+}
+
+.head-stat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-num {
+  color: #ffffff;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.head-lbl {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 22rpx;
+}
+
+.card {
+  margin: 24rpx 24rpx 0;
+}
+
+.line-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16rpx 0;
+  border-bottom: 1rpx solid #f0f4f2;
+}
+
+.line-row:last-child {
+  border-bottom: none;
+}
+
+.line-label {
+  font-size: 27rpx;
+  color: #53615d;
+}
+
+.line-value {
+  font-size: 27rpx;
+  color: #18211f;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22rpx 0;
+  border-top: 1rpx solid #f0f4f2;
+  font-size: 28rpx;
+  color: #18211f;
+}
+
+.paragraph {
+  display: block;
+  margin-top: 14rpx;
+  font-size: 25rpx;
+  color: #53615d;
+  line-height: 1.8;
+}
+
+.share-btn {
+  margin: 32rpx 24rpx 0;
+  width: auto;
+}
+
+.user-card {
+  padding-top: 26rpx;
+  padding-bottom: 26rpx;
+}
+
+.user-row {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 28rpx;
+  background: #e9f3ef;
+}
+
+.user-avatar-empty {
+  color: #0d685a;
+  font-size: 44rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.user-copy {
+  flex: 1;
+  min-width: 0;
+  margin-left: 20rpx;
+}
+
+.user-name,
+.user-status {
+  display: block;
+}
+
+.user-name {
+  color: #18211f;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+
+.user-status {
+  margin-top: 6rpx;
+  color: #7d8985;
+  font-size: 22rpx;
+}
+
+.user-action {
+  padding: 10rpx 18rpx;
+  border-radius: 999rpx;
+  color: #ffffff;
+  background: #0d685a;
+  font-size: 23rpx;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "职途雷达 · 央国企与外企全国招聘",
+  "short_name": "职途雷达",
+  "description": "搜索全国央企、国企和外资企业招聘信息，支持实时更新、收藏和提醒。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#0d5c50",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

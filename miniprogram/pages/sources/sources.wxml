@@ -1,0 +1,81 @@
+<view class="page">
+  <view class="head">
+    <text class="section-kicker">OFFICIAL CAREERS</text>
+    <text class="head-title">央国企 / 外企 / 具身智能官网直招</text>
+    <text class="head-sub">收录 {{officialTotal}} 家企业官网招聘入口，含央企国企各级子公司、外企、具身智能企业与冷门优质企业；选中后复制链接，到浏览器直接打开。</text>
+    <view class="head-stats">
+      <view class="head-stat"><text class="head-num">{{soeCount}}</text><text class="head-lbl">央国企</text></view>
+      <view class="head-stat"><text class="head-num">{{foreignCount}}</text><text class="head-lbl">外企</text></view>
+      <view class="head-stat"><text class="head-num">{{embodiedCount}}</text><text class="head-lbl">具身智能</text></view>
+      <view class="head-stat"><text class="head-num">{{nicheCount}}</text><text class="head-lbl">冷门好企</text></view>
+    </view>
+  </view>
+
+  <view class="search-wrap">
+    <view class="search-bar">
+      <text class="search-icon">⌕</text>
+      <input
+        class="search-input"
+        value="{{keyword}}"
+        placeholder="搜索企业、行业或地区"
+        placeholder-class="search-placeholder"
+        bindinput="onKeywordInput"
+      />
+      <view wx:if="{{keyword}}" class="search-clear" bindtap="onClearKeyword">×</view>
+    </view>
+    <view class="scope-row">
+      <view
+        wx:for="{{scopes}}"
+        wx:key="value"
+        class="scope {{item.value === scope ? 'scope-on' : ''}}"
+        data-value="{{item.value}}"
+        bindtap="onScopeTap"
+      >{{item.label}}</view>
+    </view>
+  </view>
+
+  <view class="tip">点击任意入口会复制链接，粘贴到系统浏览器即可打开招聘官网。</view>
+
+  <view class="list">
+    <view wx:for="{{list}}" wx:key="name" class="entry" data-url="{{item.url}}" data-name="{{item.name}}" bindtap="onCopy">
+      <view class="entry-head">
+        <text class="entry-name">{{item.name}}</text>
+        <view class="entry-badges">
+          <text wx:if="{{item.lessKnown}}" class="niche-badge">冷门</text>
+          <text class="type-badge {{item.typeClass}}">{{item.categoryText}}</text>
+        </view>
+      </view>
+      <view class="entry-meta">
+        <text>{{item.sector}}</text>
+        <text class="meta-dot">·</text>
+        <text>{{item.coverage}}</text>
+      </view>
+      <view class="entry-tags">
+        <text wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this" class="tag">{{tag}}</text>
+      </view>
+      <text class="entry-url">{{item.host}}</text>
+    </view>
+  </view>
+
+  <view wx:if="{{!list.length}}" class="empty">
+    <text class="empty-title">没有匹配的企业</text>
+    <text class="empty-text">换个关键词，或切换上方分类。</text>
+  </view>
+
+  <view class="platform-block">
+    <text class="section-kicker">AGGREGATORS</text>
+    <text class="section-title">聚合招聘平台</text>
+    <text class="platform-intro">以下平台支持关键词检索，复制入口后可在浏览器继续筛选。</text>
+    <view class="platform" wx:for="{{platforms}}" wx:key="name" data-url="{{item.url}}" data-name="{{item.name}}" bindtap="onCopy">
+      <view class="platform-copy">
+        <text class="platform-name">{{item.name}}</text>
+        <text class="platform-type">{{item.type}}</text>
+      </view>
+      <text class="platform-action">复制 ↗</text>
+    </view>
+  </view>
+
+  <view class="note">
+    小程序无法在站内直接打开第三方网页，需要配置「业务域名」并使用 web-view 组件。当前版本采用复制链接的方式，合规且无需域名备案。
+  </view>
+</view>

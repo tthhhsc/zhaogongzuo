@@ -1,0 +1,708 @@
+[
+  {
+    "name": "国家电网",
+    "short": "国网",
+    "category": "soe",
+    "sector": "能源电力",
+    "coverage": "全国",
+    "url": "https://zhaopin.sgcc.com.cn/",
+    "aliases": [
+      "国家电网有限公司"
+    ],
+    "tags": [
+      "校园招聘",
+      "社会招聘",
+      "全国"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国石油",
+    "short": "中石油",
+    "category": "soe",
+    "sector": "能源化工",
+    "coverage": "全国",
+    "url": "https://zhaopin.cnpc.com.cn/",
+    "aliases": [
+      "中国石油天然气集团"
+    ],
+    "tags": [
+      "校招",
+      "社招",
+      "油气"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国石化",
+    "short": "中石化",
+    "category": "soe",
+    "sector": "能源化工",
+    "coverage": "全国",
+    "url": "https://job.sinopec.com/",
+    "aliases": [
+      "中国石油化工集团"
+    ],
+    "tags": [
+      "校招",
+      "社招",
+      "炼化"
+    ],
+    "scan": true
+  },
+  {
+    "name": "国家能源集团",
+    "short": "国家能源",
+    "category": "soe",
+    "sector": "能源电力",
+    "coverage": "全国",
+    "url": "https://zhaopin.chnenergy.com.cn/",
+    "aliases": [
+      "国家能源投资集团"
+    ],
+    "tags": [
+      "煤炭",
+      "电力",
+      "新能源"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国移动",
+    "short": "中移",
+    "category": "soe",
+    "sector": "通信科技",
+    "coverage": "全国",
+    "url": "https://job.10086.cn/",
+    "aliases": [
+      "中国移动通信集团"
+    ],
+    "tags": [
+      "校招",
+      "社招",
+      "通信"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国电信",
+    "short": "电信",
+    "category": "soe",
+    "sector": "通信科技",
+    "coverage": "全国",
+    "url": "https://job.chinatelecom.com.cn/",
+    "aliases": [
+      "中国电信集团"
+    ],
+    "tags": [
+      "云网",
+      "技术",
+      "全国"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国商飞",
+    "short": "商飞",
+    "category": "soe",
+    "sector": "航空制造",
+    "coverage": "上海及全国",
+    "url": "https://careers.comac.cc/",
+    "aliases": [
+      "中国商用飞机"
+    ],
+    "tags": [
+      "航空",
+      "制造",
+      "研发"
+    ],
+    "scan": true
+  },
+  {
+    "name": "华润集团",
+    "short": "华润",
+    "category": "soe",
+    "sector": "综合产业",
+    "coverage": "全国",
+    "url": "https://crc.wintalent.cn/",
+    "aliases": [
+      "华润有限公司",
+      "华润（集团）有限公司",
+      "华润集团"
+    ],
+    "tags": [
+      "校招",
+      "社招",
+      "综合"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中粮集团",
+    "short": "中粮",
+    "category": "soe",
+    "sector": "食品农业",
+    "coverage": "全国",
+    "url": "https://cofco.zhiye.com/",
+    "aliases": [
+      "中粮集团"
+    ],
+    "tags": [
+      "管培生",
+      "供应链",
+      "食品"
+    ],
+    "scan": true
+  },
+  {
+    "name": "招商局集团",
+    "short": "招商局",
+    "category": "soe",
+    "sector": "综合产业",
+    "coverage": "全国",
+    "url": "https://cmhk.zhiye.com/",
+    "aliases": [
+      "招商局"
+    ],
+    "tags": [
+      "金融",
+      "物流",
+      "管培生"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国南方电网",
+    "short": "南网",
+    "category": "soe",
+    "sector": "能源电力",
+    "coverage": "南方五省区",
+    "url": "https://zhaopin.csg.cn/",
+    "aliases": [
+      "南方电网"
+    ],
+    "tags": [
+      "电力",
+      "校招",
+      "社招",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "中国华能",
+    "short": "华能",
+    "category": "soe",
+    "sector": "能源电力",
+    "coverage": "全国",
+    "url": "https://www.chng.com.cn/",
+    "aliases": [
+      "中国华能集团"
+    ],
+    "tags": [
+      "电力",
+      "新能源",
+      "国企",
+      "需进官网点人才招聘"
+    ],
+    "scan": true,
+    "directRecruitment": false
+  },
+  {
+    "name": "中国大唐",
+    "short": "大唐",
+    "category": "soe",
+    "sector": "能源电力",
+    "coverage": "全国",
+    "url": "https://zhaopin.china-cdt.com/index.html",
+    "aliases": [
+      "中国大唐集团"
+    ],
+    "tags": [
+      "发电",
+      "新能源",
+      "国企",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "中国海油",
+    "short": "中海油",
+    "category": "soe",
+    "sector": "能源化工",
+    "coverage": "全国",
+    "url": "https://cnooc.zhaopin.com/",
+    "aliases": [
+      "中国海洋石油集团"
+    ],
+    "tags": [
+      "海洋工程",
+      "油气",
+      "社招",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "中国电建",
+    "short": "电建",
+    "category": "soe",
+    "sector": "工程建设",
+    "coverage": "全国及海外",
+    "url": "https://www.powerchina.cn/djwq/rczp/index.html",
+    "aliases": [
+      "中国电力建设集团"
+    ],
+    "tags": [
+      "工程",
+      "海外",
+      "项目管理",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "中国建筑",
+    "short": "中建",
+    "category": "soe",
+    "sector": "工程建设",
+    "coverage": "全国",
+    "url": "https://www.cscec.com/rlzy_new/",
+    "aliases": [
+      "中国建筑集团"
+    ],
+    "tags": [
+      "工程",
+      "校招",
+      "社招",
+      "人力资源/招聘专区"
+    ],
+    "scan": true,
+    "directRecruitment": false
+  },
+  {
+    "name": "中国中车",
+    "short": "中车",
+    "category": "soe",
+    "sector": "轨道交通",
+    "coverage": "全国",
+    "url": "https://www.crrcgc.cc/crrcgc/71_4837/hr_hxjztx/index.html",
+    "aliases": [
+      "中国中车集团"
+    ],
+    "tags": [
+      "制造",
+      "轨道",
+      "智能制造",
+      "人力资源/招聘专区"
+    ],
+    "scan": true,
+    "directRecruitment": false
+  },
+  {
+    "name": "中核集团",
+    "short": "中核",
+    "category": "soe",
+    "sector": "核工业",
+    "coverage": "全国",
+    "url": "https://cnnc.zhiye.com/",
+    "aliases": [
+      "中国核工业集团"
+    ],
+    "tags": [
+      "核工业",
+      "研发",
+      "安全",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "东方电气",
+    "short": "东方电气",
+    "category": "soe",
+    "sector": "电力装备",
+    "coverage": "全国",
+    "url": "https://www.dongfang.com/zxns/nbzp.htm",
+    "aliases": [
+      "中国东方电气集团"
+    ],
+    "tags": [
+      "装备制造",
+      "储能",
+      "电力",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "中国邮政",
+    "short": "中邮",
+    "category": "soe",
+    "sector": "金融物流",
+    "coverage": "全国",
+    "url": "https://chinapost.zhaopin.com/",
+    "aliases": [
+      "中国邮政集团"
+    ],
+    "tags": [
+      "金融",
+      "物流",
+      "数字科技",
+      "直接招聘页"
+    ],
+    "scan": true,
+    "directRecruitment": true
+  },
+  {
+    "name": "西门子",
+    "short": "SIE",
+    "category": "foreign",
+    "sector": "工业自动化",
+    "coverage": "全国",
+    "url": "https://jobs.siemens.com/careers?location=China",
+    "aliases": [
+      "Siemens",
+      "西门子中国"
+    ],
+    "tags": [
+      "工业科技",
+      "英文岗位",
+      "多地"
+    ],
+    "scan": true
+  },
+  {
+    "name": "博世",
+    "short": "BOSCH",
+    "category": "foreign",
+    "sector": "汽车科技",
+    "coverage": "全国",
+    "url": "https://jobs.bosch.com/",
+    "aliases": [
+      "Bosch",
+      "博世中国"
+    ],
+    "tags": [
+      "汽车",
+      "软件",
+      "研发"
+    ],
+    "scan": true
+  },
+  {
+    "name": "施耐德电气",
+    "short": "SE",
+    "category": "foreign",
+    "sector": "电气设备",
+    "coverage": "全国",
+    "url": "https://careers.se.com/",
+    "aliases": [
+      "Schneider Electric",
+      "施耐德"
+    ],
+    "tags": [
+      "自动化",
+      "电气",
+      "能源管理"
+    ],
+    "scan": true
+  },
+  {
+    "name": "雀巢",
+    "short": "Nestlé",
+    "category": "foreign",
+    "sector": "消费品",
+    "coverage": "全国",
+    "url": "https://www.nestle.com/jobs",
+    "aliases": [
+      "Nestle",
+      "雀巢中国"
+    ],
+    "tags": [
+      "快消",
+      "管培生",
+      "供应链"
+    ],
+    "scan": true
+  },
+  {
+    "name": "联合利华",
+    "short": "U",
+    "category": "foreign",
+    "sector": "消费品",
+    "coverage": "全国",
+    "url": "https://careers.unilever.com/",
+    "aliases": [
+      "Unilever",
+      "联合利华中国"
+    ],
+    "tags": [
+      "品牌",
+      "市场",
+      "管培生"
+    ],
+    "scan": true
+  },
+  {
+    "name": "辉瑞",
+    "short": "PFE",
+    "category": "foreign",
+    "sector": "医药健康",
+    "coverage": "全国",
+    "url": "https://www.pfizer.com/careers",
+    "aliases": [
+      "Pfizer",
+      "辉瑞中国"
+    ],
+    "tags": [
+      "医药",
+      "医学事务",
+      "英文岗位"
+    ],
+    "scan": true
+  },
+  {
+    "name": "宝马",
+    "short": "BMW",
+    "category": "foreign",
+    "sector": "汽车制造",
+    "coverage": "全国",
+    "url": "https://www.bmwgroup.jobs/",
+    "aliases": [
+      "BMW",
+      "宝马中国"
+    ],
+    "tags": [
+      "汽车",
+      "数字化",
+      "制造"
+    ],
+    "scan": true
+  },
+  {
+    "name": "ABB",
+    "short": "ABB",
+    "category": "foreign",
+    "sector": "工业机器人",
+    "coverage": "全国",
+    "url": "https://careers.abb/global/en",
+    "aliases": [
+      "ABB中国"
+    ],
+    "tags": [
+      "机器人",
+      "自动化",
+      "控制"
+    ],
+    "scan": true
+  },
+  {
+    "name": "SAP",
+    "short": "SAP",
+    "category": "foreign",
+    "sector": "企业软件",
+    "coverage": "全国",
+    "url": "https://jobs.sap.com/",
+    "aliases": [
+      "SAP中国",
+      "思爱普"
+    ],
+    "tags": [
+      "企业软件",
+      "云服务",
+      "客户成功"
+    ],
+    "scan": true
+  },
+  {
+    "name": "微软",
+    "short": "MS",
+    "category": "foreign",
+    "sector": "软件云服务",
+    "coverage": "全国",
+    "url": "https://jobs.careers.microsoft.com/global/en/search",
+    "aliases": [
+      "Microsoft",
+      "微软中国"
+    ],
+    "tags": [
+      "云服务",
+      "研发",
+      "英文岗位"
+    ],
+    "scan": true
+  },
+  {
+    "name": "飞利浦",
+    "short": "PHI",
+    "category": "foreign",
+    "sector": "医疗科技",
+    "coverage": "全国",
+    "url": "https://www.careers.philips.com/global/en",
+    "aliases": [
+      "Philips",
+      "飞利浦中国"
+    ],
+    "tags": [
+      "医疗",
+      "软件",
+      "研发"
+    ],
+    "scan": true
+  },
+  {
+    "name": "拜耳",
+    "short": "BAYER",
+    "category": "foreign",
+    "sector": "医药健康",
+    "coverage": "全国",
+    "url": "https://www.bayer.com/en/careers",
+    "aliases": [
+      "Bayer",
+      "拜耳中国"
+    ],
+    "tags": [
+      "医药",
+      "数据科学",
+      "健康"
+    ],
+    "scan": true
+  },
+  {
+    "name": "埃森哲",
+    "short": "ACN",
+    "category": "foreign",
+    "sector": "专业服务",
+    "coverage": "全国",
+    "url": "https://www.accenture.com/us-en/careers",
+    "aliases": [
+      "Accenture",
+      "埃森哲中国"
+    ],
+    "tags": [
+      "咨询",
+      "数字化",
+      "英文岗位"
+    ],
+    "scan": true
+  },
+  {
+    "name": "欧莱雅",
+    "short": "ORÉAL",
+    "category": "foreign",
+    "sector": "美妆消费品",
+    "coverage": "全国",
+    "url": "https://careers.loreal.com/en_US/jobs",
+    "aliases": [
+      "L'Oréal",
+      "L'Oreal",
+      "欧莱雅中国"
+    ],
+    "tags": [
+      "美妆",
+      "零售",
+      "供应链"
+    ],
+    "scan": true
+  },
+  {
+    "name": "美敦力",
+    "short": "MDT",
+    "category": "foreign",
+    "sector": "医疗科技",
+    "coverage": "全国",
+    "url": "https://jobs.medtronic.com/",
+    "aliases": [
+      "Medtronic",
+      "美敦力中国"
+    ],
+    "tags": [
+      "医疗器械",
+      "注册",
+      "研发"
+    ],
+    "scan": true
+  },
+  {
+    "name": "宜家",
+    "short": "IKEA",
+    "category": "foreign",
+    "sector": "家居零售",
+    "coverage": "全国",
+    "url": "https://jobs.ikea.com/",
+    "aliases": [
+      "IKEA",
+      "宜家中国"
+    ],
+    "tags": [
+      "零售",
+      "供应链",
+      "门店"
+    ],
+    "scan": true
+  },
+  {
+    "name": "达能",
+    "short": "Danone",
+    "category": "foreign",
+    "sector": "消费品",
+    "coverage": "全国",
+    "url": "https://careers.danone.com/",
+    "aliases": [
+      "Danone",
+      "达能中国"
+    ],
+    "tags": [
+      "快消",
+      "电商",
+      "运营"
+    ],
+    "scan": true
+  },
+  {
+    "name": "空气化工",
+    "short": "APD",
+    "category": "foreign",
+    "sector": "工业气体",
+    "coverage": "全国",
+    "url": "https://www.airproducts.com/careers",
+    "aliases": [
+      "Air Products",
+      "空气产品公司"
+    ],
+    "tags": [
+      "化工",
+      "工艺",
+      "EHS"
+    ],
+    "scan": true
+  },
+  {
+    "name": "中国兵器工业集团",
+    "short": "兵器工业",
+    "category": "soe",
+    "sector": "国防工业",
+    "coverage": "全国",
+    "url": "https://www.norincogroup.com.cn/",
+    "aliases": [
+      "中国兵器工业集团有限公司",
+      "兵器工业集团"
+    ],
+    "tags": [
+      "国防工业",
+      "装备制造",
+      "科研院所",
+      "需进官网点人才招聘"
+    ],
+    "scan": true,
+    "directRecruitment": false
+  }
+]

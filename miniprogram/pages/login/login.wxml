@@ -1,0 +1,54 @@
+<view class="login-page">
+  <view class="login-orbit orbit-one"></view>
+  <view class="login-orbit orbit-two"></view>
+
+  <view class="login-content">
+    <view class="brand-row">
+      <view class="brand-mark">◎</view>
+      <view class="brand-copy">
+        <text class="brand-title">职途雷达</text>
+        <text class="brand-sub">央国企 · 外企 · 专科岗位</text>
+      </view>
+    </view>
+
+    <view class="hero">
+      <text class="hero-kicker">NATIONWIDE TALENT RADAR</text>
+      <text class="hero-title">登录后，开始搜索全国工作机会</text>
+      <text class="hero-desc">保存你的收藏与浏览状态，快速访问专科岗位、企业官网和招聘入口。</text>
+    </view>
+
+    <view class="profile-card">
+      <button class="avatar-button" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar" aria-label="选择微信头像">
+        <image wx:if="{{avatarUrl}}" class="avatar-image" src="{{avatarUrl}}" mode="aspectFill"></image>
+        <view wx:else class="avatar-placeholder">
+          <text class="avatar-plus">+</text>
+          <text class="avatar-tip">选择头像</text>
+        </view>
+      </button>
+
+      <view class="profile-form">
+        <text class="profile-label">微信昵称</text>
+        <input
+          class="nickname-input"
+          type="nickname"
+          value="{{nickName}}"
+          maxlength="32"
+          placeholder="点击填写或选择微信昵称"
+          placeholder-class="input-placeholder"
+          bindinput="onNicknameInput"
+          bindblur="onNicknameInput"
+        />
+      </view>
+    </view>
+
+    <button class="login-button" loading="{{logging}}" disabled="{{logging}}" bindtap="onWechatLogin">
+      微信一键登录
+    </button>
+    <button class="later-button" bindtap="onLater">暂不登录，先逛逛</button>
+
+    <view class="privacy-note">
+      <text>登录表示你同意小程序仅在本机保存头像、昵称和登录状态。</text>
+      <text>当前版本不上传个人信息，也不收集简历或手机号。</text>
+    </view>
+  </view>
+</view>
